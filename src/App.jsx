@@ -128,6 +128,19 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
             <div className="description">
               <h3>{selectedStudy.title}</h3>
               <p>{selectedStudy.description}</p>
+              <p>{selectedStudy.desc1}</p>
+              <p>{selectedStudy.desc2}</p>
+              <p>{selectedStudy.desc3}</p>
+              <p>{selectedStudy.desc4}</p>
+              <p>{selectedStudy.desc5}</p>
+              <p>{selectedStudy.desc6}</p>
+              <p>{selectedStudy.desc7}</p>
+              <p>{selectedStudy.desc8}</p>
+              <p>{selectedStudy.desc9}</p>
+              <p>{selectedStudy.desc10}</p>
+              <p>{selectedStudy.desc11}</p>
+              <p>{selectedStudy.desc12}</p>
+
 
               {/* Timestamps Section */}
               {selectedStudy.timestamps.length > 0 && (
