@@ -166,7 +166,8 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                   </ul>
                 </div>
             
-              )}
+              )}<br></br>
+  <br></br>
               <p>{selectedStudy.description}</p>
                 <p>{selectedStudy.desc1}</p>
               <p>{selectedStudy.desc2}</p>
