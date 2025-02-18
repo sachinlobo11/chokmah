@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from "react";
 import "./BibleLMS.css";
 
@@ -8,9 +9,13 @@ const BibleLMS = () => {
   const sidebarRef = useRef(null);
 
   const bibleStudies = [
-    { id: 1, date: "21-06-2024", title: "The Transformative Power of Comprehensive Bible Reading", videoUrl: "https://www.youtube.com/embed/4Q2JicFD5GM", 
-     description: "📖 91 ಹೀಮ್ನ್‌ಗಳನ್ನು ಓದುವ ಮೂಲಕ ಬೈಬಲ್ ಅಧ್ಯಯನ🍚 ಕೇವಲ ಅಕ್ಕಿ ತಿನ್ನುವುದರಿಂದ ಶಕ್ತಿ ಸಿಕ್ಕುವುದಿಲ್ಲ🛡️ ಆಧ್ಯಾತ್ಮಿಕ ಶಕ್ತಿಗೆ ಬೈಬಲ್ ಓದುವುದು ಅಗತ್ಯ",
-     desc1:"✝️ ಯೇಸು ಹೇಳಿದ ಸತ್ಯ ನಿಮಗೆ ಮುಕ್ತಿಯೊಂದಿಗೆ ಬರುವದು",
+    {
+      id: 1,
+      date: "21-06-2024",
+      title: "The Transformative Power of Comprehensive Bible Reading",
+      videoUrl: "https://www.youtube.com/embed/4Q2JicFD5GM",
+      description: "📖 91 ಹೀಮ್ನ್‌ಗಳನ್ನು ಓದುವ ಮೂಲಕ ಬೈಬಲ್ ಅಧ್ಯಯನ...",
+      desc1:"✝️ ಯೇಸು ಹೇಳಿದ ಸತ್ಯ ನಿಮಗೆ ಮುಕ್ತಿಯೊಂದಿಗೆ ಬರುವದು",
 desc2:"🔥 ಪ್ರಾರ್ಥನೆ ಮತ್ತು ನಂಬಿಕೆ ಶಕ್ತಿಯ ಮೂಲ",
 desc3:"✍️ ಬೈಬಲ್ ಹಕ್ಕಿಯನ್ನು ಕಳೆಯುವುದು ಆಧ್ಯಾತ್ಮಿಕ ಯುದ್ಧ",
 desc4:"🙏 ದೇವರ ಶಕ್ತಿಯನ್ನು ಅನುಭವಿಸಲು ನಂಬಿಕೆ ಅಗತ್ಯ",
@@ -21,10 +26,21 @@ desc8:"🌱 ಆಧ್ಯಾತ್ಮಿಕ ಬೆಳವಣಿಗೆ: ಪ್ರ�
 desc9:"🛡️ ಆಧ್ಯಾತ್ಮಿಕ ಯುದ್ಧ: ದೇವರ ಶಕ್ತಿಯನ್ನು ಪಡೆದು, ಶ್ರೇಷ್ಠವಾದ ಆಧ್ಯಾತ್ಮಿಕ ಶಕ್ತಿಯೊಂದಿಗೆ ಶತ್ರುಗಳನ್ನು ಎದುರಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.",
 desc10:"✨ ನಂಬಿಕೆಯ ಮಹತ್ವ: ಯೇಸು ಹೇಳಿದಂತೆ, ನಂಬಿಕೆ ಶಕ್ತಿಯಾಗಿದೆ; ಸಣ್ಣ ಹಕ್ಕಿಯಷ್ಟು ನಂಬಿಕೆ ಬೆಟ್ಟಗಳನ್ನು ಚಲಾಯಿಸಬಹುದು.",
 desc11:"📚 ಬುದ್ಧಿವಂತಿಕೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಬೆಳವಣಿಗೆ: ಬೈಬಲ್ ಅಧ್ಯಯನವು ಬುದ್ಧಿವಂತಿಕೆಗೆ ಕಾರಣವಾಗುತ್ತದೆ, ಇದು ವ್ಯಕ್ತಿಯ ಜೀವನವನ್ನು ರೂಪಿಸುತ್ತದೆ.",
-desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಮೂಲಕ ದೇವರ ಶಕ್ತಿಯನ್ನು ಅನುಭವಿಸುವುದು ಸಧ್ಯವಾಗಿದೆ." },
-    
-    { id: 2, date: "28-06-24", title: "Faith Over Fear", videoUrl: "https://www.youtube.com/embed/_KBJYf4viGE", description: "Overcoming fear with unwavering faith." },
-    { id: 3, date: "05-07-24", title: "Love and Compassion", videoUrl: "https://www.youtube.com/embed/pqr789", description: "Exploring love and kindness in the Bible." },
+desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಮೂಲಕ ದೇವರ ಶಕ್ತಿಯನ್ನು ಅನುಭವಿಸುವುದು ಸಧ್ಯವಾಗಿದೆ.",
+      timestamps: [
+        { time: "00:00:00", label: "Introduction to the necessity of reading the entire Bible" },
+        { time: "00:15:00", label: "How Scripture provides clarity and direction" },
+        { time: "00:30:00", label: "Emphasis on the need for prayer and fasting" }
+      ]
+    },
+    {
+      id: 2,
+      date: "28-06-24",
+      title: "Faith Over Fear",
+      videoUrl: "https://www.youtube.com/embed/_KBJYf4viGE",
+      description: "Overcoming fear with unwavering faith.",
+      timestamps: []
+    }
   ];
 
   const filteredStudies = bibleStudies.filter(
@@ -45,6 +61,18 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  // Function to change the video URL with a timestamp
+  const handleTimestampClick = (study, time) => {
+    const updatedVideoUrl = `${study.videoUrl}?start=${convertToSeconds(time)}`;
+    setSelectedStudy({study, videoUrl: updatedVideoUrl });
+  };
+
+  // Convert "HH:MM:SS" to seconds
+  const convertToSeconds = (time) => {
+    const [hh, mm, ss] = time.split(":").map(Number);
+    return hh * 3600 + mm * 60 + ss;
+  };
 
   return (
     <div className="dashboard">
@@ -68,9 +96,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
             filteredStudies.map((study) => (
               <button
                 key={study.id}
-                className={`sidebar-button ${
-                  selectedStudy?.id === study.id ? "active" : ""
-                }`}
+                className={`sidebar-button ${selectedStudy?.id === study.id ? "active" : ""}`}
                 onClick={() => setSelectedStudy(study)}
               >
                 {study.date} - {study.title}
@@ -101,18 +127,22 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
             <div className="description">
               <h3>{selectedStudy.title}</h3>
               <p>{selectedStudy.description}</p>
-              <p>{selectedStudy.desc1}</p>
-              <p>{selectedStudy.desc2}</p>
-              <p>{selectedStudy.desc3}</p>
-              <p>{selectedStudy.desc4}</p>
-              <p>{selectedStudy.desc5}</p>
-              <p>{selectedStudy.desc6}</p>
-              <p>{selectedStudy.desc7}</p>
-              <p>{selectedStudy.desc8}</p>
-              <p>{selectedStudy.desc9}</p>
-              <p>{selectedStudy.desc10}</p>
-              <p>{selectedStudy.desc11}</p>
-              <p>{selectedStudy.desc12}</p>
+
+              {/* Timestamps Section */}
+              {selectedStudy.timestamps.length > 0 && (
+                <div className="timestamps">
+                  <h4>Jump to Section:</h4>
+                  <ul>
+                    {selectedStudy.timestamps.map((ts, index) => (
+                      <li key={index}>
+                        <button onClick={() => handleTimestampClick(selectedStudy, ts.time)}>
+                          {ts.time} - {ts.label}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         ) : (
