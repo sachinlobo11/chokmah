@@ -168,34 +168,4 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 };
 
 export default BibleLMS;
-CSS (BibleLMS.css)
-Add styles for the language switcher.
 
-css
-Copy
-Edit
-.language-switcher {
-  display: flex;
-  gap: 10px;
-  margin: 15px 0;
-}
-
-.language-switcher button {
-  padding: 8px 12px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  font-weight: 600;
-  transition: background 0.3s, transform 0.2s;
-}
-
-.language-switcher button.active {
-  background-color: #3498db;
-  color: white;
-}
-
-.language-switcher button:hover {
-  background-color: #2c3e50;
-  color: white;
-  transform: scale(1.05);
-}
