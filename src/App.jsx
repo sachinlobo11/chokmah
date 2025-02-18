@@ -8,9 +8,9 @@ const BibleLMS = () => {
   const sidebarRef = useRef(null);
 
   const bibleStudies = [
-    { id: 1, date: "2024-02-10", title: "The Power of Prayer", videoUrl: "https://www.youtube.com/embed/xyz123", description: "Understanding the strength of prayer in daily life." },
-    { id: 2, date: "2024-02-17", title: "Faith Over Fear", videoUrl: "https://www.youtube.com/embed/abc456", description: "Overcoming fear with unwavering faith." },
-    { id: 3, date: "2024-02-24", title: "Love and Compassion", videoUrl: "https://www.youtube.com/embed/pqr789", description: "Exploring love and kindness in the Bible." },
+    { id: 1, date: "21-06-2024", title: "The Power of Prayer", videoUrl: "https://www.youtube.com/watch?v=4Q2JicFD5GM", description: "Understanding the strength of prayer in daily life." },
+    { id: 2, date: "28-06-24", title: "Faith Over Fear", videoUrl: "https://www.youtube.com/watch?v=_KBJYf4viGE", description: "Overcoming fear with unwavering faith." },
+    { id: 3, date: "05-07-24", title: "Love and Compassion", videoUrl: "https://www.youtube.com/embed/pqr789", description: "Exploring love and kindness in the Bible." },
   ];
 
   const filteredStudies = bibleStudies.filter(
