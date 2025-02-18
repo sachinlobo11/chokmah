@@ -134,6 +134,10 @@
 
 .description h3 {
   color: #2c3e50;
+  margin-bottom: 15px;
+}
+.description p {
+  
   margin-bottom: 10px;
 }
 
