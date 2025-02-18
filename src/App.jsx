@@ -149,7 +149,8 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                 <button onClick={() => setLanguage("kk")} className={language === "kk" ? "active" : ""}>Konkani</button>
                 <button onClick={() => setLanguage("kn")} className={language === "kn" ? "active" : ""}>ಕನ್ನಡ</button>
               </div>
-
+<br>
+  <br>
               {/* Timestamps Section */}
               {selectedStudy.timestamps[language]?.length > 0 && (
                 <div className="timestamps">
@@ -164,6 +165,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                     ))}
                   </ul>
                 </div>
+            
               )}
               <p>{selectedStudy.description}</p>
                                             <p>{selectedStudy.desc1}</p>
