@@ -6,6 +6,7 @@ const BibleLMS = () => {
   const [selectedStudy, setSelectedStudy] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [language, setLanguage] = useState("en"); // Default language is English
   const sidebarRef = useRef(null);
 
   const bibleStudies = [
@@ -55,13 +56,12 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
     }
   ];
 
-  const filteredStudies = bibleStudies.filter(
+ const filteredStudies = bibleStudies.filter(
     (study) =>
       study.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       study.date.includes(searchQuery)
   );
 
-  // Close sidebar when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
@@ -74,14 +74,12 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
     };
   }, []);
 
-  // Function to change the video URL with a timestamp
   const handleTimestampClick = (study, time) => {
     const baseUrl = study.videoUrl.split("?")[0];
     const updatedVideoUrl = `${baseUrl}?start=${convertToSeconds(time)}`;
-    setSelectedStudy({...study, videoUrl: updatedVideoUrl });
+    setSelectedStudy({ ...study, videoUrl: updatedVideoUrl });
   };
 
-  // Convert "HH:MM:SS" to seconds
   const convertToSeconds = (time) => {
     const [hh, mm, ss] = time.split(":").map(Number);
     return hh * 3600 + mm * 60 + ss;
@@ -89,12 +87,10 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 
   return (
     <div className="dashboard">
-      {/* Toggle Button */}
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
         ☰
       </button>
 
-      {/* Sidebar */}
       <aside ref={sidebarRef} className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
         <h2>Bible LMS</h2>
         <input
@@ -121,7 +117,6 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
         </nav>
       </aside>
 
-      {/* Main Content */}
       <main className="main-content">
         <header className="header">Bible Learning Archive</header>
 
@@ -140,30 +135,23 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
             <div className="description">
               <h3>{selectedStudy.title}</h3>
               <p>{selectedStudy.description}</p>
-              <p>{selectedStudy.desc1}</p>
-              <p>{selectedStudy.desc2}</p>
-              <p>{selectedStudy.desc3}</p>
-              <p>{selectedStudy.desc4}</p>
-              <p>{selectedStudy.desc5}</p>
-              <p>{selectedStudy.desc6}</p>
-              <p>{selectedStudy.desc7}</p>
-              <p>{selectedStudy.desc8}</p>
-              <p>{selectedStudy.desc9}</p>
-              <p>{selectedStudy.desc10}</p>
-              <p>{selectedStudy.desc11}</p>
-              <p>{selectedStudy.desc12}</p>
 
+              {/* Language Switcher */}
+              <div className="language-switcher">
+                <button onClick={() => setLanguage("en")} className={language === "en" ? "active" : ""}>English</button>
+                <button onClick={() => setLanguage("kn")} className={language === "kn" ? "active" : ""}>ಕನ್ನಡ</button>
+              </div>
 
               {/* Timestamps Section */}
-              {selectedStudy.timestamps.length > 0 && (
+              {selectedStudy.timestamps[language]?.length > 0 && (
                 <div className="timestamps">
                   <h4>Jump to Section:</h4>
                   <ul>
-                    {selectedStudy.timestamps.map((ts, index) => (
+                    {selectedStudy.timestamps[language].map((ts, index) => (
                       <li key={index}>
                         <button onClick={() => handleTimestampClick(selectedStudy, ts.time)}>
-                          {ts.time} 
-                        </button>- {ts.label}
+                          {ts.time}
+                        </button> - {ts.label}
                       </li>
                     ))}
                   </ul>
@@ -180,3 +168,34 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 };
 
 export default BibleLMS;
+CSS (BibleLMS.css)
+Add styles for the language switcher.
+
+css
+Copy
+Edit
+.language-switcher {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.language-switcher button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.language-switcher button.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.language-switcher button:hover {
+  background-color: #2c3e50;
+  color: white;
+  transform: scale(1.05);
+}
