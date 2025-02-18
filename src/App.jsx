@@ -146,6 +146,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
               {/* Language Switcher */}
               <div className="language-switcher">
                 <button onClick={() => setLanguage("en")} className={language === "en" ? "active" : ""}>English</button>
+                <button onClick={() => setLanguage("kk")} className={language === "kk" ? "active" : ""}>Konkani</button>
                 <button onClick={() => setLanguage("kn")} className={language === "kn" ? "active" : ""}>ಕನ್ನಡ</button>
               </div>
 
