@@ -65,7 +65,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   // Function to change the video URL with a timestamp
   const handleTimestampClick = (study, time) => {
     const updatedVideoUrl = `${study.videoUrl}?start=${convertToSeconds(time)}`;
-    setSelectedStudy({study, videoUrl: updatedVideoUrl });
+    setSelectedStudy({...study, videoUrl: updatedVideoUrl });
   };
 
   // Convert "HH:MM:SS" to seconds
@@ -136,8 +136,8 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                     {selectedStudy.timestamps.map((ts, index) => (
                       <li key={index}>
                         <button onClick={() => handleTimestampClick(selectedStudy, ts.time)}>
-                          {ts.time} - {ts.label}
-                        </button>
+                          {ts.time} 
+                        </button>- {ts.label}
                       </li>
                     ))}
                   </ul>
