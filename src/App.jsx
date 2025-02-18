@@ -159,7 +159,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                       <li key={index}>
                         <button onClick={() => handleTimestampClick(selectedStudy, ts.time)}>
                           {ts.time}
-                        </button> - {ts.label}
+                        </button>   - {ts.label}
                       </li>
                     ))}
                   </ul>
@@ -172,7 +172,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
               
               
               
-            </div>
+            </div> <p> Content may have mistakes</p>
           </div>
         ) : (
           <p className="no-selection">Select a study from the list.</p>
