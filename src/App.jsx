@@ -64,7 +64,8 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 
   // Function to change the video URL with a timestamp
   const handleTimestampClick = (study, time) => {
-    const updatedVideoUrl = `${study.videoUrl}?start=${convertToSeconds(time)}`;
+    const baseUrl = study.videoUrl.split("?")[0];
+    const updatedVideoUrl = `${baseUrl}?start=${convertToSeconds(time)}`;
     setSelectedStudy({...study, videoUrl: updatedVideoUrl });
   };
 
