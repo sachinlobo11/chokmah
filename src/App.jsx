@@ -136,7 +136,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                   <ul>
                     {selectedStudy.timestamps.map((ts, index) => (
                       <li key={index}>
-                        <button onClick={() => handleTimestampClick(study, ts.time)}>
+                        <button onClick={() => handleTimestampClick(selectedStudy, ts.time)}>
                           {ts.time} 
                         </button>- {ts.label}
                       </li>
