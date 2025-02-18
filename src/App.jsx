@@ -30,7 +30,9 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       timestamps: [
         { time: "00:00:00", label: "Introduction to the necessity of reading the entire Bible" },
         { time: "00:15:00", label: "How Scripture provides clarity and direction" },
-        { time: "00:30:00", label: "Emphasis on the need for prayer and fasting" }
+        { time: "00:30:00", label: " Emphasis on the need for prayer and fasting alongside Bible reading to enhance understanding and spiritual growth." },
+        { time:"00:46:00", label:"Insight into the transformative impact of God’s Word on personal character, integrity, and ethical living."},
+        { time:"01:03:00", label:"Discussion on the eternal significance of living by God’s Word and how it shapes one’s destiny and purpose in life."}
       ]
     },
     {
