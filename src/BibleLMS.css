@@ -38,16 +38,25 @@
 .sidebar h2 {
   margin-bottom: 10px;
   font-size: 20px;
+  font-weight: 600;
 }
 
+/* Search Bar */
 .search-bar {
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
   border-radius: 5px;
   border: none;
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
+.search-bar:focus {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+/* Sidebar Buttons */
 .sidebar-button {
   display: block;
   width: 100%;
@@ -58,15 +67,21 @@
   color: white;
   text-align: left;
   cursor: pointer;
-  transition: background 0.3s;
+  border-radius: 5px;
+  transition: background 0.3s, transform 0.2s;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .sidebar-button:hover {
-  background-color: #34495e;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
 }
 
 .sidebar-button.active {
   background-color: #3498db;
+  font-weight: 600;
+  transform: scale(1.08);
 }
 
 .no-results {
@@ -82,15 +97,17 @@
   background-color: #2c3e50;
   color: white;
   border: none;
-  padding: 10px;
-  font-size: 18px;
+  padding: 10px 12px;
+  font-size: 20px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 50%;
   z-index: 1100;
+  transition: background 0.3s, transform 0.3s;
 }
 
 .toggle-button:hover {
   background-color: #34495e;
+  transform: rotate(90deg);
 }
 
 /* Main Content */
@@ -130,15 +147,21 @@
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .description h3 {
   color: #2c3e50;
   margin-bottom: 15px;
+  transition: color 0.3s ease-in-out;
 }
+
 .description p {
-  
   margin-bottom: 10px;
+}
+
+.description:hover {
+  transform: scale(1.02);
 }
 
 .no-selection {
