@@ -255,3 +255,27 @@
   transform: scale(1.05);
 }
 
+.timestamps ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.timestamps li {
+  margin-right: 15px; /* Add spacing between the items */
+}
+
+.timestamps button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.timestamps button:hover {
+  background-color: #0056b3;
+}
+
