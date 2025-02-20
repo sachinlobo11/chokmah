@@ -83,9 +83,9 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                             {label: "John 17:17",time:"16:35",},//John 17:17 (Sanctify them by Your truth; Your word is truth)
         {label: "Isaiah 41:23",time:"20:36",},//Isaiah 41:23 (The challenge of revealing the future as proof of being God)
         
-                            {label: "Isaiah 45:21",time:"21:37",}//Isaiah 45:21 (God declares Himself as the only true God and the one who foretells the future)    
-      {label: "John 15:3",time:"26:51",}{label: "Psalm 119:140",time:"27:35",}{label: "Psalm 119:11",time:"29:11",}{label: "Psalm 119:105",time:"30:44",}
-      {label: "Psalm 119:130",time:"30:44",}{label: "Deuteronomy 4:5-6",time:"32:22",}                     ]//scr
+                            {label: "Isaiah 45:21",time:"21:37",},//Isaiah 45:21 (God declares Himself as the only true God and the one who foretells the future)    
+      {label: "John 15:3",time:"26:51",},{label: "Psalm 119:140",time:"27:35",},{label: "Psalm 119:11",time:"29:11",},{label: "Psalm 119:105",time:"30:44",},
+      {label: "Psalm 119:130",time:"30:44",},{label: "Deuteronomy 4:5-6",time:"32:22",}   ,                  ]//scr
     },//id
 
 
