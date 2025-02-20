@@ -29,7 +29,7 @@ desc10:"✨ ನಂಬಿಕೆಯ ಮಹತ್ವ: ಯೇಸು ಹೇಳಿದ�
 desc11:"📚 ಬುದ್ಧಿವಂತಿಕೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಬೆಳವಣಿಗೆ: ಬೈಬಲ್ ಅಧ್ಯಯನವು ಬುದ್ಧಿವಂತಿಕೆಗೆ ಕಾರಣವಾಗುತ್ತದೆ, ಇದು ವ್ಯಕ್ತಿಯ ಜೀವನವನ್ನು ರೂಪಿಸುತ್ತದೆ.",
 desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಮೂಲಕ ದೇವರ ಶಕ್ತಿಯನ್ನು ಅನುಭವಿಸುವುದು ಸಧ್ಯವಾಗಿದೆ.",
       descrip:{en:[
-        { time: "00:00:00", label: "Introduction to the necessity of reading the entire Bible" },
+        { time: "00:00:00", label: "✝️ ಯೇಸು ಹೇಳಿದ ಸತ್ಯ ನಿಮಗೆ ಮುಕ್ತಿಯೊಂದಿಗೆ ಬರುವದು" },
         { time: "00:15:00", label: "How Scripture provides clarity and direction" },
         { time: "00:30:00", label: " Emphasis on the need for prayer and fasting alongside Bible reading to enhance understanding and spiritual growth." },
         { time:"00:46:00", label:"Insight into the transformative impact of God’s Word on personal character, integrity, and ethical living."},
@@ -232,14 +232,13 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 
               {selectedStudy.descrip[language]?.length > 0 && (
                 <div className="descrip">
-                  <h4>Jump to Section:</h4>
+                  
                   <ul>
                     {selectedStudy.descrip[language].map((ts, index) => (
-                      <li key={index}>
-                        <button onClick={() => handleTimestampClick(selectedStudy, ts.time)}>
-                          {ts.time}
-                        </button>   - {ts.label}
-                      </li>
+                      
+                        
+                          <p>{ts.label}</p>
+                      
                     ))}
                   </ul>
                 </div>
