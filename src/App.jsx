@@ -162,7 +162,7 @@ const BibleLMS = () => {
               )}
               <br />
               <br />
-
+ 
               <p>{selectedStudy.description}</p>
               <p>{selectedStudy.desc1}</p>
               <p>{selectedStudy.desc2}</p>
