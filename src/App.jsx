@@ -221,7 +221,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
     {
       id: 4,
       date: "19-07-24",
-      title: "The Power of Faith, session 4",
+      title: "The Nature of the Holy Spirit and God's Creation of Humanity",
       videoUrl: "https://www.youtube.com/embed/-ZSNDZjxuD4",
       description: "Not updated",
       desc1:"",
@@ -257,9 +257,9 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
              },
       timestamps: {
         en:[
-        { time: "00:57:20", label: "" },
-        { time: "00:15:00", label: "" },
-        { time: "00:39:00", label: "" },
+        { time: "00:57:20", label: "God's Plan of Redemption and Our Response to His Love Through Service" },
+        { time: "01:07:55", label: "Jesus' Departure and the Promise of the Holy Spirit: Understanding the Need for His Ascension" },
+        { time: "00:39:00", label: "Jesus' Ascension and the Promise of the Holy Spirit: Understanding the Need for His Ascension,The Greater Benefit" },
         { time: "00:58:48", label:""},
         { time: "01:29:20", label:""},
         
@@ -408,7 +408,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
               )}
               
               
-            </div> <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p>Created by ETFGH Church members
+            </div> <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p><br></br><small>Created by ETFGH Church members</small>
           </div>
         ) : (
           <p className="no-selection">Select a study from the list.</p>
