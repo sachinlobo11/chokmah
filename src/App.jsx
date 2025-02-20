@@ -36,15 +36,15 @@ const BibleLMS = () => {
       },
       scriptureReferences: [
         {
-          label: "John 3:16 - God's love for the world",
+          label: "John 3:16",
           time: "00:10:00",
         },
         {
-          label: "Romans 8:28 - All things work together for good",
+          label: "Romans 8:28",
           time: "00:30:00",
         },
         {
-          label: "Psalm 23:1 - The Lord is my shepherd",
+          label: "Psalm 23:1",
           time: "00:45:00",
         },
       ],
