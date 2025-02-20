@@ -155,7 +155,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       id: 3,
       date: "05-07-24",
       title: "The Power of Faith, session 3",
-      videoUrl: "https://www.youtube.com/watch?v=Tg4P1vfukKg",
+      videoUrl: "https://www.youtube.com/embed/Tg4P1vfukKg",
       description: "Not updated",
       desc1:"",
      
@@ -222,7 +222,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       id: 4,
       date: "19-07-24",
       title: "The Power of Faith, session 4",
-      videoUrl: "https://www.youtube.com/watch?v=-ZSNDZjxuD4",
+      videoUrl: "https://www.youtube.com/embed/-ZSNDZjxuD4",
       description: "Not updated",
       desc1:"",
      
@@ -257,7 +257,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
              },
       timestamps: {
         en:[
-        { time: "00:00:00", label: "" },
+        { time: "00:57:20", label: "" },
         { time: "00:15:00", label: "" },
         { time: "00:39:00", label: "" },
         { time: "00:58:48", label:""},
