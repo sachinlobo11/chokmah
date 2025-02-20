@@ -275,12 +275,12 @@
   padding: 10px;
   cursor: pointer;
   border-radius: 25px;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .scripture-references button:hover {
   background-color: #cecece;
   border: 2px;
-  color: white;
+  color: black;
 }
 
