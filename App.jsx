@@ -406,6 +406,23 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                 </div>
             
               )}
+
+
+              {/* Scripture References Section */}
+              {selectedStudy.scriptureReferences?.length > 0 && (
+                <div className="scripture-references">
+                  <h4>Scripture References:</h4>
+                  <ul>
+                    {selectedStudy.scriptureReferences.map((ref, index) => (
+                      <li key={index}>
+                        <button onClick={() => handleScriptureClick(ref.time)}>
+                          {ref.label}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
               
               
             </div> <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p><br></br><small>Created by ETFGH Church members</small>
