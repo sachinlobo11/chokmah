@@ -289,6 +289,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
     tag.src = "https://www.youtube.com/iframe_api";
     const firstScriptTag = document.getElementsByTagName("script")[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    console.log(firstScriptTag)
 
     window.onYouTubeIframeAPIReady = () => {
       const playerInstance = new YT.Player("player", {
@@ -301,6 +302,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           onStateChange: onPlayerStateChange,
         },
       });
+      console.log(playerInstance)
       setPlayer(playerInstance); // Set the player reference
     };
 
