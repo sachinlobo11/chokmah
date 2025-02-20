@@ -280,5 +280,7 @@
 
 .scripture-references button:hover {
   background-color: #cecece;
+  border: 2px;
+  color: white;
 }
 
