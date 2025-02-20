@@ -408,7 +408,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
               )}
               
               
-            </div> <p> <small>We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</small></p><br>Created by ETFGH Church members</br>
+            </div> <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p>Created by ETFGH Church members
           </div>
         ) : (
           <p className="no-selection">Select a study from the list.</p>
