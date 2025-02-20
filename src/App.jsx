@@ -229,10 +229,25 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                 <p>{selectedStudy.desc1}</p>
               <p>{selectedStudy.desc2}</p>
               <p>{selectedStudy.desc3}</p>
+
+              {selectedStudy.descrip[language]?.length > 0 && (
+                <div className="descrip">
+                  <h4>Jump to Section:</h4>
+                  <ul>
+                    {selectedStudy.descrip[language].map((ts, index) => (
+                      <li key={index}>
+                        <button onClick={() => handleTimestampClick(selectedStudy, ts.time)}>
+                          {ts.time}
+                        </button>   - {ts.label}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+            
+              )}
               
               
-              
-            </div> <p> Content may have mistakes</p>
+            </div> <p> Contents may have mistakes</p>
           </div>
         ) : (
           <p className="no-selection">Select a study from the list.</p>
