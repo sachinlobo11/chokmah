@@ -79,43 +79,10 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           { time: "01:03:00", label: "ನಿತ್ಯ ಜೀವನದಲ್ಲಿ ದೇವರ ಮಾತಿನ ಪ್ರಭಾವ" }
         ],
     },//time
-      scriptureReferences: [
-        {
-          label: "John 3:16",
-          time: "00:10:00",
-        },
-        {
-          label: "Romans 8:28",
-          time: "00:30:00",
-        },
-        {
-          label: "Psalm 23:1",
-          time: "00:45:00",
-        },
-        {
-          label: "John 3:16",
-          time: "00:10:00",
-        },
-        {
-          label: "Romans 8:28",
-          time: "00:30:00",
-        },
-        {
-          label: "Psalm 23:1",
-          time: "00:45:00",
-        },
-        {
-          label: "John 3:16",
-          time: "00:10:00",
-        },
-        {
-          label: "Romans 8:28",
-          time: "00:30:00",
-        },
-        {
-          label: "Psalm 23:1",
-          time: "00:45:00",
-        }
+      scriptureReferences: [{label: "John 8:32", time: "00:00:48", },{label: "John 8:36",time: "00:01:37", },{label: "Matthew 12:43-45", time: "04:15",},{label: "Psalm 119:160",time:"16:17",},//The sum of God's word is truth
+                            {label: "John 17:17",time:"16:35",},//John 17:17 (Sanctify them by Your truth; Your word is truth)
+        {label: "Isaiah 41:23",time:"20:36",},//Isaiah 41:23 (The challenge of revealing the future as proof of being God)
+        {label: "Isaiah 45:21",time:"21:37",}//Isaiah 45:21 (God declares Himself as the only true God and the one who foretells the future)    
       ]//scr
     },//id
 
