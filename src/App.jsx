@@ -309,7 +309,9 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 
   const handleTimestampClick = (study, time) => {
     const baseUrl = study.videoUrl.split("?")[0];
+    console.log(baseUrl);
     const updatedVideoUrl = `${baseUrl}?start=${convertToSeconds(time)}`;
+    console.log(time);
     setSelectedStudy({ ...study, videoUrl: updatedVideoUrl });
   };
 
