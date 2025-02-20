@@ -255,17 +255,17 @@
   transform: scale(1.05);
 }
 
-.timestamps ul {
+.scripture-references ul {
   display: flex;
   list-style-type: none;
   padding: 0;
 }
 
-.timestamps li {
+.scripture-references li {
   margin-right: 15px; /* Add spacing between the items */
 }
 
-.timestamps button {
+.scripture-references button {
   background-color: #007bff;
   color: white;
   border: none;
@@ -275,7 +275,7 @@
   font-size: 14px;
 }
 
-.timestamps button:hover {
+.scripture-references button:hover {
   background-color: #0056b3;
 }
 
