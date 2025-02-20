@@ -424,7 +424,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                   <ul>
                     {selectedStudy.scriptureReferences.map((ref, index) => (
                       <li key={index}>
-                        <button onClick={() => handleScriptureClick(selectedStudy,ref.time)}>
+                        <button onClick={() => handleTimestampClick(selectedStudy,ref.time)}>
                           {ref.label}
                         </button>
                       </li>
