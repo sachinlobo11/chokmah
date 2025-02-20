@@ -408,7 +408,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
               )}
               
               
-            </div> <p> Contents may have mistakes</p>
+            </div> <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p>
           </div>
         ) : (
           <p className="no-selection">Select a study from the list.</p>
