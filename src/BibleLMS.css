@@ -255,3 +255,27 @@
   transform: scale(1.05);
 }
 
+.scripture-references ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.scripture-references li {
+  margin-right: 15px; /* Add spacing between the items */
+}
+
+.scripture-references button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.scripture-references button:hover {
+  background-color: #0056b3;
+}
+
