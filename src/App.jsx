@@ -58,12 +58,12 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       date: "28-06-24",
       title: "Faith Over Fear",
       videoUrl: "https://www.youtube.com/embed/_KBJYf4viGE",
-      description: "importance of living according to God's word and trusting in His promises, regardless of personal challenges or doubts. It emphasizes that God's word is unchanging, and by meditating on Scripture, one can overcome temptations and hardships, leading to spiritual victory and fulfillment of God's promises.",
-      desc1:"importance of God's word, prayer, and Bible reading. Specifically, it talks about how to worship God's word, how to pray, and how we should ask for the help of the Holy Spirit to know God.It states that while reading God's word, individuals need the guidance of the Holy Spirit to receive God's message. \n Personally, we should meditate on God's word in our minds and offer sincere prayer in accordance with God's heart.Look, this is the path that must be followed wholeheartedly.",
+      description: "🔥 importance of living according to God's word and trusting in His promises, regardless of personal challenges or doubts. It emphasizes that God's word is unchanging, and by meditating on Scripture, one can overcome temptations and hardships, leading to spiritual victory and fulfillment of God's promises.",
+      desc1:"🔥 importance of God's word, prayer, and Bible reading. Specifically, it talks about how to worship God's word, how to pray, and how we should ask for the help of the Holy Spirit to know God.It states that while reading God's word, individuals need the guidance of the Holy Spirit to receive God's message. \n Personally, we should meditate on God's word in our minds and offer sincere prayer in accordance with God's heart.Look, this is the path that must be followed wholeheartedly.",
      
-      desc2:"focusing on the importance of spiritual discipline, prayer, and the challenges of resisting worldly distractions, such as news and social media, which can hinder spiritual growth",
-      desc3:"emphasizing the need to protect the mind from negative influences and maintaining focus on God's word to stay spiritually strong",
-      desc4:"In the Book of Job, true faith, trust, and belief come from the heart and must align with God’s will, as opposed to mere human understanding. Martha’s story illustrates that faith is not only about believing in words but also fully trusting in God’s power, even in challenging situations.",
+      desc2:"💪 focusing on the importance of spiritual discipline, prayer, and the challenges of resisting worldly distractions, such as news and social media, which can hinder spiritual growth",
+      desc3:"🧠📖💪 emphasizing the need to protect the mind from negative influences and maintaining focus on God's word to stay spiritually strong",
+      desc4:"🙏 In the Book of Job, true faith, trust, and belief come from the heart and must align with God’s will, as opposed to mere human understanding. Martha’s story illustrates that faith is not only about believing in words but also fully trusting in God’s power, even in challenging situations.",
       timestamps: {
         en:[
         { time: "00:00:00", label: "Living According to God's Word: Overcoming Doubts and Embracing His Promises" },
