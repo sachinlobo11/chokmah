@@ -440,7 +440,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           </div>
         ) : (
           <p className="no-selection"> Select a study from the list.</p>
-           <p className="no-selection n"> Br chethan </p>
+           <p className="no-selection n"> Bro chethan </p>
         )}
       </main>
     </div>
