@@ -323,7 +323,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
         ☰
       </button>
-
+<br></br><br></br>
       <aside ref={sidebarRef} className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
         <h2>Bible LMS</h2>
         <input
@@ -351,7 +351,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       </aside>
 
       <main className="main-content">
-        <header className="header">Bible Learning Archive</header>
+        <header className="header">     Bible Learning Archive</header>
 
         {selectedStudy ? (
           <div>
@@ -438,6 +438,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           </div>
         ) : (
           <p className="no-selection">Select a study from the list.</p>
+     <p className="no-selection"> Br. chethan</p>
         )}
       </main>
     </div>
