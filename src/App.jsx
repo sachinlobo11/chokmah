@@ -439,8 +439,8 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
             .<br></br><small>Created by ETFGH Church members  </small>
           </div>
         ) : (
-          <p className="no-selection">Select a study from the list.</p>
-     <p className="no-selection"> Br. chethan</p>
+          <p className="no-selection"> Select a study from the list.</p>
+           <p className="no-selection n"> Br chethan </p>
         )}
       </main>
     </div>
