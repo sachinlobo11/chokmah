@@ -439,7 +439,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
             .<br></br><small>Created by ETFGH Church members  </small>
           </div>
         ) : (
-          <p className="no-selection"> Select a study from the list.<br> Bro Chethan</p>
+          <p className="no-selection"> Select a study from the list.</p>
            
         )}
       </main>
