@@ -152,7 +152,15 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           { time: "00:58:00", label: "ಆಧ್ಯಾತ್ಮಿಕ ಶಿಸ್ತು ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಶಕ್ತಿ: ವಿಗ್ರಹಗಳನ್ನು ಜಯಿಸಿ ದೇವರ ಸತ್ಯವನ್ನು ಅಂಗೀಕರಿಸೋದು" },
           { time: "01:29:30", label: "ವಿಶ್ವಾಸ, ನಂಬಿಕೆ ಮತ್ತು ಭರವಸೆ: ಯೋಬಿನ ಪುಸ್ತಕದಿಂದ ದೊರಕುವ ಗುರುತುಗಳು ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಶಕ್ತಿ" }
         ],
-    }},
+    },scriptureReferences: [{label: "Matthew 4:4", time: "00:06:06", },{label: "Deuteronomy 6:16",time: "00:06:51", },{label: "Deuteronomy 5:6", time: "07:39",},{label: "Matthew 16:18",time:"08:54",},//The sum of God's word is truth
+                            {label: "John 17:17",time:"16:35",},//John 17:17 (Sanctify them by Your truth; Your word is truth)
+        {label: "Matthew 4:7",time:"10:29",},//Isaiah 41:23 (The challenge of revealing the future as proof of being God)
+        
+                            {label: "Matthew 4:10",time:"11:30",},//Isaiah 45:21 (God declares Himself as the only true God and the one who foretells the future)    
+      {label: "Exodus 25:22",time:"19:37",},{label: "2 Peter 1:21",time:"20:57",},{label: "1 Samuel 3:21",time:"32:25",},{label: "Matthew 6:11",time:"39:04",},
+      {label: "John 14:15-17",time:"47:07",},{label: "Proverbs 3:5-6",time:"46:13",},{label: "Psalm 12:6",time:"50:36",}   
+      
+    },
 
 
 
