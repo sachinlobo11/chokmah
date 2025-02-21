@@ -230,7 +230,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       date: "19-07-24",
       title: "The Nature of the Holy Spirit and God's Creation of Humanity",
       videoUrl: "https://www.youtube.com/embed/-ZSNDZjxuD4",
-      description: "Not updated",
+      description: "God's Love, Our Response: The Role of Jesus' Ascension and the Holy Spirit",
       desc1:"",
      
       desc2:"",
@@ -430,9 +430,11 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                   </ul>
                 </div>
               )}
-              
-              
-            </div> <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p><br></br><small>Created by ETFGH Church members</small>
+              <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p>
+
+              <button onclick="location.href='https://forms.gle/E8MdisaLqDEzdjgB8';">Update Notes</button>
+            </div> 
+            .<br></br><small>Created by ETFGH Church members  </small>
           </div>
         ) : (
           <p className="no-selection">Select a study from the list.</p>
