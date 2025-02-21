@@ -170,14 +170,16 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       desc3:"",
       desc4:"",
        descrip:{en:[
-        { time: "00:00:00", label: "💖🙏God's Love as the Foundation: God is love, and He created humans in His image to share and spread that love." },
-        { time: "00:15:00", label: "👼✨ Angels vs. 🧑‍🤝‍🧑🌍 Humans: Angels don't have souls or emotions, unlike humans, who were made with the ability to love and feel, reflecting God's nature." },
-        { time: "00:30:00", label: "🌍 Purpose of Creation: God created humans not just for existence, but to experience and share His love, to worship and serve Him in return" },
-        { time: "00:46:00", label:"✝️🙏💔 Jesus' Sacrifice and Resurrection: Jesus' death and resurrection were part of God's plan for redemption, showing His endless love and preparing the way for humanity's salvation."},
-        { time: "01:03:00", label:"🙏 Holy Spirit's Role: Jesus' departure allowed the Holy Spirit to come, guiding and empowering believers, emphasizing that His presence would now be limitless, accessible to all."},
+        { time: "00:00:00", label: "👼 Faith Building through Fasting and Prayer: level of faith determines the ability to overcome certain challenges. In the example of the disciples not being able to cast out a demon, Jesus mentioned that a higher level of faith was required. This higher level of faith can be attained through fasting and prayer, which are practices that help strengthen one's faith. Fasting and prayer create a deeper connection with God and are essential for building spiritual strength." },
+        { time: "00:15:00", label: "✨ The Power of God's Word in Transforming Lives:God's Word has a creative and transformative power. When we fill ourselves with God's Word, it leads to changes within us. Just as God's Word has the power to create and shape the world, it has the power to change our lives. By internalizing and speaking God's Word, we can bring about transformation not only within ourselves but also influence others in positive ways, changing their lives as well" },
+        { time: "00:30:00", label: "🌍covers various topics like spiritual warfare, the hierarchy of Satan's kingdom, the nature of demons and spirits, and their influence on the human world" },
+        { time: "00:46:00", label:"Corruption and sin: A warning about the corruption that happens when one turns away from God’s commandments. The heart becomes corrupt and leads to sin."},
+        { time: "01:03:00", label:"Spiritual cleansing: Emphasizing the need to cleanse the mind and heart from pollution. The analogy of water being cleaned and purified was used to illustrate how we need to stop spiritual pollution"},
+        { time: "01:03:00", label:"Holy Spirit: The Holy Spirit is described as the breath of God, and it is through God's Spirit that His word is created and revealed. This process is similar to how our own breath and words work in our speech."},
+        { time: "01:03:00", label:"The Role of the Holy Spirit in God's Word: The Holy Spirit brings God's word to life and makes it active. Without the movement of the Holy Spirit, God's word remains dry and inactive. When the Spirit moves and speaks through God's word, it becomes a tool for healing, blessing, and delivering people. The Spirit of God must be present for God's word to become effective and impactful in the lives of believers."},
+        { time: "01:03:00", label:"The Holy Spirit as the Power of God: The Holy Spirit is described as the power of God that enables God's plans and purposes to be fulfilled. Just as God the Father has a plan, and Jesus the Son executes it, the Holy Spirit empowers the plan by bringing it into action and giving it the strength needed to be completed."},
         
-        
-      ],
+              ],
         kk:[
           { time: "00:00:00", label: "" },
         { time: "00:15:00", label: "" },
@@ -187,13 +189,16 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       
         ],
         kn:[
-          { time: "00:00:00", label: "💖🙏ದೇವರ ಪ್ರೀತಿ ಮೂಲವಾಗಿದೆ: ದೇವರು ಪ್ರೀತಿಯಲ್ಲಿದ್ದಾರೆ, ಮತ್ತು ಆತನ ಸ್ವರೂಪದಲ್ಲಿ ಹೃದಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಮಾನವರನ್ನು ಸೃಷ್ಟಿಸಿದನು." },
-        { time: "00:15:00", label: "👼✨ಏಂಜೆಲ್ಸ್ ಹಾಗೂ 🧑‍🤝‍🧑🌍 ಮಾನವರು: ಏಂಜೆಲ್ಸ್ ಗಳು ಆತ್ಮ ಹಾಗೂ ಭಾವನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತಿಲ್ಲ, ಆದರೆ ಮಾನವರು ದೇವರ ಸ್ವರೂಪದಲ್ಲಿ ಪ್ರೀತಿ ಮತ್ತು ಭಾವನೆಗಳನ್ನು ಅನುಭವಿಸಲು ರಚನೆಗೊಂಡಿದ್ದಾರೆ." },
-        { time: "00:30:00", label: "🌍 ಸೃಷ್ಟಿಯ ಉದ್ದೇಶ: ದೇವರು ಮಾನವರನ್ನು ಕೇವಲ ಬದುಕಿಸಲು ಅಲ್ಲ, ತನ್ನ ಪ್ರೀತಿಯನ್ನು ಅನುಭವಿಸಿ ಹಂಚಿಕೊಳ್ಳಲು, ಆರಾಧನೆ ಮತ್ತು ಸೇವೆಗಾಗಿ ಸೃಷ್ಟಿಸಿದನು." },
-        { time: "00:46:00", label: "✝️🙏💔 ಯೇಸು ಬಲಿದಾನ ಮತ್ತು ಪುನರುತ್ಥಾನ: ಯೇಸು ಕ್ರಿಸ್ತನ ಮರಣ ಮತ್ತು ಪುನರುತ್ಥಾನವು ದೇವರ ರಕ್ಷಣೆ ಯೋಜನೆಯ ಭಾಗವಾಗಿದ್ದು, ದೇವರ ಶಾಶ್ವತ ಪ್ರೀತಿಯನ್ನು ಹೊರಹಾಕುತ್ತದೆ." },
-        { time: "01:03:00", label: "🙏 ಪವಿತ್ರ ಆತ್ಮದ ಪಾತ್ರ: ಯೇಸು ಹೋದ ನಂತರ, ಪವಿತ್ರ ಆತ್ಮ ನಮ್ಮಲ್ಲಿರುತ್ತಾರೆ, ಅದು ಎಲ್ಲೆಡೆ ಉಲ್ಲಾಸವನ್ನು ಹಾಗೂ ಮಾರ್ಗದರ್ಶನವನ್ನು ನೀಡುತ್ತದೆ, ಅವನ ಪ್ರಸ್ತುತಿಯು ಅನಂತವಾಗುತ್ತದೆ." },
+        { time: "00:00:00", label: "👼 Faith Building through Fasting and Prayer: level of faith determines the ability to overcome certain challenges. In the example of the disciples not being able to cast out a demon, Jesus mentioned that a higher level of faith was required. This higher level of faith can be attained through fasting and prayer, which are practices that help strengthen one's faith. Fasting and prayer create a deeper connection with God and are essential for building spiritual strength." },
+        { time: "00:15:00", label: "✨ The Power of God's Word in Transforming Lives:God's Word has a creative and transformative power. When we fill ourselves with God's Word, it leads to changes within us. Just as God's Word has the power to create and shape the world, it has the power to change our lives. By internalizing and speaking God's Word, we can bring about transformation not only within ourselves but also influence others in positive ways, changing their lives as well" },
+        { time: "00:30:00", label: "🌍covers various topics like spiritual warfare, the hierarchy of Satan's kingdom, the nature of demons and spirits, and their influence on the human world" },
+        { time: "00:46:00", label:"Corruption and sin: A warning about the corruption that happens when one turns away from God’s commandments. The heart becomes corrupt and leads to sin."},
+        { time: "01:03:00", label:"Spiritual cleansing: Emphasizing the need to cleanse the mind and heart from pollution. The analogy of water being cleaned and purified was used to illustrate how we need to stop spiritual pollution"},
+        { time: "01:03:00", label:"Holy Spirit: The Holy Spirit is described as the breath of God, and it is through God's Spirit that His word is created and revealed. This process is similar to how our own breath and words work in our speech."},
+        { time: "01:03:00", label:"The Role of the Holy Spirit in God's Word: The Holy Spirit brings God's word to life and makes it active. Without the movement of the Holy Spirit, God's word remains dry and inactive. When the Spirit moves and speaks through God's word, it becomes a tool for healing, blessing, and delivering people. The Spirit of God must be present for God's word to become effective and impactful in the lives of believers."},
+        { time: "01:03:00", label:"The Holy Spirit as the Power of God: The Holy Spirit is described as the power of God that enables God's plans and purposes to be fulfilled. Just as God the Father has a plan, and Jesus the Son executes it, the Holy Spirit empowers the plan by bringing it into action and giving it the strength needed to be completed."},
         
-        ]
+              ]
              },
       timestamps: {
         en:[
