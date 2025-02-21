@@ -430,9 +430,11 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                   </ul>
                 </div>
               )}
-              <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p>
-
-              <button onclick="location.href='https://forms.gle/E8MdisaLqDEzdjgB8';">Update Notes</button>
+              <small><p className="no-selection"> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p></small>
+<a href="https://forms.gle/E8MdisaLqDEzdjgB8">
+      <button>Update Notes</button>
+</a>
+              
             </div> 
             .<br></br><small>Created by ETFGH Church members  </small>
           </div>
