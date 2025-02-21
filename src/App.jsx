@@ -8,7 +8,7 @@ const BibleLMS = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [language, setLanguage] = useState("en"); // Default language is English
   const sidebarRef = useRef(null);
-
+  const [clickedTime, setClickedTime] = useState(null);
   const bibleStudies = [
     {
       id: 1,
@@ -323,6 +323,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
     console.log(baseUrl);
     const updatedVideoUrl = `${baseUrl}?start=${convertToSeconds(time)}`;
     console.log(time);
+    setClickedTime(time);
     setSelectedStudy({ ...study, videoUrl: updatedVideoUrl });
   };
 
@@ -436,7 +437,9 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                     {selectedStudy.scriptureReferences.map((ref, index) => (
                       <li key={index}>
                         <button onClick={() => handleTimestampClick(selectedStudy,ref.time)}>
-                          {ref.label} time:{ref.time}
+                          {ref.label} 
+                          
+                          {clickedTime === ref.time && ` time:${ref.time}`}
                         </button>
                       </li>
                     ))}
