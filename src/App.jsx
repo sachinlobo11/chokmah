@@ -237,11 +237,11 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       desc3:"",
       desc4:"",
        descrip:{en:[
-        { time: "00:00:00", label: "God's Love as the Foundation: God is love, and He created humans in His image to share and spread that love." },
-        { time: "00:15:00", label: "Angels vs Humans: Angels don't have souls or emotions, unlike humans, who were made with the ability to love and feel, reflecting God's nature." },
-        { time: "00:30:00", label: "Purpose of Creation: God created humans not just for existence, but to experience and share His love, to worship and serve Him in return" },
-        { time: "00:46:00", label:"Jesus' Sacrifice and Resurrection: Jesus' death and resurrection were part of God's plan for redemption, showing His endless love and preparing the way for humanity's salvation."},
-        { time: "01:03:00", label:"Holy Spirit's Role: Jesus' departure allowed the Holy Spirit to come, guiding and empowering believers, emphasizing that His presence would now be limitless, accessible to all."},
+        { time: "00:00:00", label: "💖🙏God's Love as the Foundation: God is love, and He created humans in His image to share and spread that love." },
+        { time: "00:15:00", label: "👼✨ Angels vs. 🧑‍🤝‍🧑🌍 Humans: Angels don't have souls or emotions, unlike humans, who were made with the ability to love and feel, reflecting God's nature." },
+        { time: "00:30:00", label: "🌍 Purpose of Creation: God created humans not just for existence, but to experience and share His love, to worship and serve Him in return" },
+        { time: "00:46:00", label:"✝️🙏💔 Jesus' Sacrifice and Resurrection: Jesus' death and resurrection were part of God's plan for redemption, showing His endless love and preparing the way for humanity's salvation."},
+        { time: "01:03:00", label:"🙏 Holy Spirit's Role: Jesus' departure allowed the Holy Spirit to come, guiding and empowering believers, emphasizing that His presence would now be limitless, accessible to all."},
         
         
       ],
@@ -254,11 +254,11 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       
         ],
         kn:[
-          { time: "00:00:00", label: "" },
-        { time: "00:15:00", label: "." },
-        { time: "00:30:00", label: "" },
-        { time: "00:46:00", label: "" },
-        { time: "01:03:00", label: "" },
+          { time: "00:00:00", label: "💖🙏ದೇವರ ಪ್ರೀತಿ ಮೂಲವಾಗಿದೆ: ದೇವರು ಪ್ರೀತಿಯಲ್ಲಿದ್ದಾರೆ, ಮತ್ತು ಆತನ ಸ್ವರೂಪದಲ್ಲಿ ಹೃದಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಮಾನವರನ್ನು ಸೃಷ್ಟಿಸಿದನು." },
+        { time: "00:15:00", label: "👼✨ಏಂಜೆಲ್ಸ್ ಹಾಗೂ 🧑‍🤝‍🧑🌍 ಮಾನವರು: ಏಂಜೆಲ್ಸ್ ಗಳು ಆತ್ಮ ಹಾಗೂ ಭಾವನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತಿಲ್ಲ, ಆದರೆ ಮಾನವರು ದೇವರ ಸ್ವರೂಪದಲ್ಲಿ ಪ್ರೀತಿ ಮತ್ತು ಭಾವನೆಗಳನ್ನು ಅನುಭವಿಸಲು ರಚನೆಗೊಂಡಿದ್ದಾರೆ." },
+        { time: "00:30:00", label: "🌍 ಸೃಷ್ಟಿಯ ಉದ್ದೇಶ: ದೇವರು ಮಾನವರನ್ನು ಕೇವಲ ಬದುಕಿಸಲು ಅಲ್ಲ, ತನ್ನ ಪ್ರೀತಿಯನ್ನು ಅನುಭವಿಸಿ ಹಂಚಿಕೊಳ್ಳಲು, ಆರಾಧನೆ ಮತ್ತು ಸೇವೆಗಾಗಿ ಸೃಷ್ಟಿಸಿದನು." },
+        { time: "00:46:00", label: "✝️🙏💔 ಯೇಸು ಬಲಿದಾನ ಮತ್ತು ಪುನರುತ್ಥಾನ: ಯೇಸು ಕ್ರಿಸ್ತನ ಮರಣ ಮತ್ತು ಪುನರುತ್ಥಾನವು ದೇವರ ರಕ್ಷಣೆ ಯೋಜನೆಯ ಭಾಗವಾಗಿದ್ದು, ದೇವರ ಶಾಶ್ವತ ಪ್ರೀತಿಯನ್ನು ಹೊರಹಾಕುತ್ತದೆ." },
+        { time: "01:03:00", label: "🙏 ಪವಿತ್ರ ಆತ್ಮದ ಪಾತ್ರ: ಯೇಸು ಹೋದ ನಂತರ, ಪವಿತ್ರ ಆತ್ಮ ನಮ್ಮಲ್ಲಿರುತ್ತಾರೆ, ಅದು ಎಲ್ಲೆಡೆ ಉಲ್ಲಾಸವನ್ನು ಹಾಗೂ ಮಾರ್ಗದರ್ಶನವನ್ನು ನೀಡುತ್ತದೆ, ಅವನ ಪ್ರಸ್ತುತಿಯು ಅನಂತವಾಗುತ್ತದೆ." },
         
         ]
              },
