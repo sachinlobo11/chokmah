@@ -159,7 +159,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                             {label: "Matthew 4:10",time:"00:11:30",},//Isaiah 45:21 (God declares Himself as the only true God and the one who foretells the future)    
       {label: "Exodus 25:22",time:"00:19:37",},{label: "2 Peter 1:21",time:"00:20:57",},{label: "1 Samuel 3:21",time:"00:32:25",},{label: "Matthew 6:11",time:"00:39:04",},
       {label: "John 14:15-17",time:"00:47:07",},{label: "Proverbs 3:5-6",time:"00:46:13",},{label: "Psalm 12:6",time:"00:50:36",}   
-      
+      ]
     },
 
 
