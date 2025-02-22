@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import "./BibleLMS.css";
+import { Helmet } from 'react-helmet';
 
 const BibleLMS = () => {
   const [selectedStudy, setSelectedStudy] = useState(null);
