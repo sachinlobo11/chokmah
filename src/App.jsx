@@ -336,29 +336,10 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   return (
 
     <div>
-      <head>
-        
-        
-          <title>Bible study Notes</title>
-          <link rel="icon" href="https://www.youversion.com/wp-content/themes/youversion/images/favicon.ico" type="image/x-icon"/>
-         
-          <meta property="og:url" content="https://chokmah.vercel.app/"/>
-          <meta property="og:type" content="website"/>
-          <meta property="og:title" content="bible study"/>
-          <meta property="og:description" content="hhhh"/>
-          <meta property="og:image" content="https://metatags.io/images/meta-tags.png"/>
-          
-        
-          <meta name="twitter:card" content="summary_large_image"/>
-          <meta property="twitter:domain" content="chokmah.vercel.app"/>
-          <meta property="twitter:url" content="https://chokmah.vercel.app/"/>
-          <meta name="twitter:title" content="bible study"/>
-          <meta name="twitter:description" content="hhhh"/>
-          <meta name="twitter:image" content="https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg"/>
-          
+      
             {/* <!-- Meta Tags Generated via https://www.opengraph.xyz https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg-->*/}
                  
-      </head>
+      
  
     <div className="dashboard">
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
