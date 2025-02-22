@@ -340,7 +340,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       
             {/* <!-- Meta Tags Generated via https://www.opengraph.xyz https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg-->*/}
                  
-      
+       <Analytics />
  
     <div className="dashboard">
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
