@@ -333,7 +333,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   };
 
   return (
-<div>
+
 <Helmet>
       {/* Open Graph Meta Tags for WhatsApp Preview */}
       <meta property="og:title" content="Bible Study Notes" />
@@ -343,7 +343,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://img.youtube.com/vi/Tg4P1vfukKg/default.jpg" />
     </Helmet>
-</div>
+
 
     
     <div className="dashboard">
