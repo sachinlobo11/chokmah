@@ -5,7 +5,7 @@
     "dependencies": {
         "react": "19.0.0",
         "react-dom": "19.0.0",
-        "scheduler": "0.25.0"
+        "scheduler": "0.25.0",
         "react-helmet": "^6.1.0"
     },
     "scripts": {
