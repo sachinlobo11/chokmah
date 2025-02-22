@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./BibleLMS.css";
 import { Helmet } from 'react-helmet';
 import { Analytics } from "@vercel/analytics/react"
+
 const BibleLMS = () => {
   const [selectedStudy, setSelectedStudy] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
