@@ -334,9 +334,6 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   };
 
   return (
-
-
-    
       <Helmet>
         <meta property="og:title" content="Bible Study Notes" />
         <meta property="og:description" content="End Time FGHR Church" />
