@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import "./BibleLMS.css";
-import { Helmet } from 'react-helmet';
+
 const BibleLMS = () => {
   const [selectedStudy, setSelectedStudy] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -333,9 +333,6 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   };
 
   return (
-
-    {/*https://www.youtube.com/watch?v=4Q2JicFD5GM*/}
-    
     <div className="dashboard">
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
         ☰
