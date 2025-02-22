@@ -334,6 +334,18 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   };
 
   return (
+
+
+    <>
+      <Helmet>
+        <meta property="og:title" content="Your Page Title" />
+        <meta property="og:description" content="Description of your page content" />
+        <meta property="og:image" content="https://yourwebsite.com/path/to/image.jpg" />
+        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://yourwebsite.com/path/to/image.jpg" />
+      </Helmet>
+    </>
     <div className="dashboard">
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
         ☰
