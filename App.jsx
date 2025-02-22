@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import "./BibleLMS.css";
+import { Helmet } from 'react-helmet';
 
 const BibleLMS = () => {
   const [selectedStudy, setSelectedStudy] = useState(null);
@@ -8,7 +9,7 @@ const BibleLMS = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [language, setLanguage] = useState("en"); // Default language is English
   const sidebarRef = useRef(null);
-
+  const [clickedTime, setClickedTime] = useState(null);
   const bibleStudies = [
     {
       id: 1,
@@ -79,20 +80,13 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           { time: "01:03:00", label: "ನಿತ್ಯ ಜೀವನದಲ್ಲಿ ದೇವರ ಮಾತಿನ ಪ್ರಭಾವ" }
         ],
     },//time
-      scriptureReferences: [
-        {
-          label: "John 3:16",
-          time: "00:10:00",
-        },
-        {
-          label: "Romans 8:28",
-          time: "00:30:00",
-        },
-        {
-          label: "Psalm 23:1",
-          time: "00:45:00",
-        }
-      ]//scr
+      scriptureReferences: [{label: "John 8:32", time: "00:00:48", },{label: "John 8:36",time: "00:01:37", },{label: "Matthew 12:43-45", time: "00:04:15",},{label: "Psalm 119:160",time:"00:16:17",},//The sum of God's word is truth
+                            {label: "John 17:17",time:"00:16:35",},//John 17:17 (Sanctify them by Your truth; Your word is truth)
+        {label: "Isaiah 41:23",time:"00:20:36",},//Isaiah 41:23 (The challenge of revealing the future as proof of being God)
+        
+                            {label: "Isaiah 45:21",time:"00:21:37",},//Isaiah 45:21 (God declares Himself as the only true God and the one who foretells the future)    
+      {label: "John 15:3",time:"00:26:51",},{label: "Psalm 119:140",time:"00:27:35",},{label: "Psalm 119:11",time:"00:29:11",},{label: "Psalm 119:105",time:"00:30:44",},
+      {label: "Psalm 119:130",time:"00:30:44",},{label: "Deuteronomy 4:5-6",time:"00:32:22",}                  ]//scr
     },//id
 
 
@@ -159,7 +153,15 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           { time: "00:58:00", label: "ಆಧ್ಯಾತ್ಮಿಕ ಶಿಸ್ತು ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಶಕ್ತಿ: ವಿಗ್ರಹಗಳನ್ನು ಜಯಿಸಿ ದೇವರ ಸತ್ಯವನ್ನು ಅಂಗೀಕರಿಸೋದು" },
           { time: "01:29:30", label: "ವಿಶ್ವಾಸ, ನಂಬಿಕೆ ಮತ್ತು ಭರವಸೆ: ಯೋಬಿನ ಪುಸ್ತಕದಿಂದ ದೊರಕುವ ಗುರುತುಗಳು ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಶಕ್ತಿ" }
         ],
-    }},
+    },scriptureReferences: [{label: "Matthew 4:4", time: "00:06:06", },{label: "Deuteronomy 6:16",time: "00:06:51", },{label: "Deuteronomy 5:6", time: "07:39",},{label: "Matthew 16:18",time:"08:54",},//The sum of God's word is truth
+                            {label: "John 17:17",time:"00:16:35",},//John 17:17 (Sanctify them by Your truth; Your word is truth)
+        {label: "Matthew 4:7",time:"00:10:29",},//Isaiah 41:23 (The challenge of revealing the future as proof of being God)
+        
+                            {label: "Matthew 4:10",time:"00:11:30",},//Isaiah 45:21 (God declares Himself as the only true God and the one who foretells the future)    
+      {label: "Exodus 25:22",time:"00:19:37",},{label: "2 Peter 1:21",time:"00:20:57",},{label: "1 Samuel 3:21",time:"00:32:25",},{label: "Matthew 6:11",time:"00:39:04",},
+      {label: "John 14:15-17",time:"00:47:07",},{label: "Proverbs 3:5-6",time:"00:46:13",},{label: "Psalm 12:6",time:"00:50:36",}   
+      ]
+    },
 
 
 
@@ -177,14 +179,16 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       desc3:"",
       desc4:"",
        descrip:{en:[
-        { time: "00:00:00", label: "God's Love as the Foundation: God is love, and He created humans in His image to share and spread that love." },
-        { time: "00:15:00", label: "Angels vs Humans: Angels don't have souls or emotions, unlike humans, who were made with the ability to love and feel, reflecting God's nature." },
-        { time: "00:30:00", label: "Purpose of Creation: God created humans not just for existence, but to experience and share His love, to worship and serve Him in return" },
-        { time: "00:46:00", label:"Jesus' Sacrifice and Resurrection: Jesus' death and resurrection were part of God's plan for redemption, showing His endless love and preparing the way for humanity's salvation."},
-        { time: "01:03:00", label:"Holy Spirit's Role: Jesus' departure allowed the Holy Spirit to come, guiding and empowering believers, emphasizing that His presence would now be limitless, accessible to all."},
+        { time: "00:00:00", label: "👼 Faith Building through Fasting and Prayer: level of faith determines the ability to overcome certain challenges. In the example of the disciples not being able to cast out a demon, Jesus mentioned that a higher level of faith was required. This higher level of faith can be attained through fasting and prayer, which are practices that help strengthen one's faith. Fasting and prayer create a deeper connection with God and are essential for building spiritual strength." },
+        { time: "00:15:00", label: "✨ The Power of God's Word in Transforming Lives:God's Word has a creative and transformative power. When we fill ourselves with God's Word, it leads to changes within us. Just as God's Word has the power to create and shape the world, it has the power to change our lives. By internalizing and speaking God's Word, we can bring about transformation not only within ourselves but also influence others in positive ways, changing their lives as well" },
+        { time: "00:30:00", label: "🌍covers various topics like spiritual warfare, the hierarchy of Satan's kingdom, the nature of demons and spirits, and their influence on the human world" },
+        { time: "00:46:00", label:"Corruption and sin: A warning about the corruption that happens when one turns away from God’s commandments. The heart becomes corrupt and leads to sin."},
+        { time: "01:03:00", label:"Spiritual cleansing: Emphasizing the need to cleanse the mind and heart from pollution. The analogy of water being cleaned and purified was used to illustrate how we need to stop spiritual pollution"},
+        { time: "01:03:00", label:"Holy Spirit: The Holy Spirit is described as the breath of God, and it is through God's Spirit that His word is created and revealed. This process is similar to how our own breath and words work in our speech."},
+        { time: "01:03:00", label:"The Role of the Holy Spirit in God's Word: The Holy Spirit brings God's word to life and makes it active. Without the movement of the Holy Spirit, God's word remains dry and inactive. When the Spirit moves and speaks through God's word, it becomes a tool for healing, blessing, and delivering people. The Spirit of God must be present for God's word to become effective and impactful in the lives of believers."},
+        { time: "01:03:00", label:"The Holy Spirit as the Power of God: The Holy Spirit is described as the power of God that enables God's plans and purposes to be fulfilled. Just as God the Father has a plan, and Jesus the Son executes it, the Holy Spirit empowers the plan by bringing it into action and giving it the strength needed to be completed."},
         
-        
-      ],
+              ],
         kk:[
           { time: "00:00:00", label: "" },
         { time: "00:15:00", label: "" },
@@ -194,13 +198,16 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       
         ],
         kn:[
-          { time: "00:00:00", label: "ದೇವರ ಪ್ರೀತಿ ಮೂಲವಾಗಿದೆ: ದೇವರು ಪ್ರೀತಿಯಲ್ಲಿದ್ದಾರೆ, ಮತ್ತು ಆತನ ಸ್ವರೂಪದಲ್ಲಿ ಹೃದಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಮಾನವರನ್ನು ಸೃಷ್ಟಿಸಿದನು." },
-        { time: "00:15:00", label: "ಏಂಜೆಲ್ಸ್ ಹಾಗೂ ಮಾನವರು: ಏಂಜೆಲ್ಸ್ ಗಳು ಆತ್ಮ ಹಾಗೂ ಭಾವನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತಿಲ್ಲ, ಆದರೆ ಮಾನವರು ದೇವರ ಸ್ವರೂಪದಲ್ಲಿ ಪ್ರೀತಿ ಮತ್ತು ಭಾವನೆಗಳನ್ನು ಅನುಭವಿಸಲು ರಚನೆಗೊಂಡಿದ್ದಾರೆ." },
-        { time: "00:30:00", label: "ಸೃಷ್ಟಿಯ ಉದ್ದೇಶ: ದೇವರು ಮಾನವರನ್ನು ಕೇವಲ ಬದುಕಿಸಲು ಅಲ್ಲ, ತನ್ನ ಪ್ರೀತಿಯನ್ನು ಅನುಭವಿಸಿ ಹಂಚಿಕೊಳ್ಳಲು, ಆರಾಧನೆ ಮತ್ತು ಸೇವೆಗಾಗಿ ಸೃಷ್ಟಿಸಿದನು." },
-        { time: "00:46:00", label: "ಯೇಸು ಬಲಿದಾನ ಮತ್ತು ಪುನರುತ್ಥಾನ: ಯೇಸು ಕ್ರಿಸ್ತನ ಮರಣ ಮತ್ತು ಪುನರುತ್ಥಾನವು ದೇವರ ರಕ್ಷಣೆ ಯೋಜನೆಯ ಭಾಗವಾಗಿದ್ದು, ದೇವರ ಶಾಶ್ವತ ಪ್ರೀತಿಯನ್ನು ಹೊರಹಾಕುತ್ತದೆ." },
-        { time: "01:03:00", label: "ಪವಿತ್ರ ಆತ್ಮದ ಪಾತ್ರ: ಯೇಸು ಹೋದ ನಂತರ, ಪವಿತ್ರ ಆತ್ಮ ನಮ್ಮಲ್ಲಿರುತ್ತಾರೆ, ಅದು ಎಲ್ಲೆಡೆ ಉಲ್ಲಾಸವನ್ನು ಹಾಗೂ ಮಾರ್ಗದರ್ಶನವನ್ನು ನೀಡುತ್ತದೆ, ಅವನ ಪ್ರಸ್ತುತಿಯು ಅನಂತವಾಗುತ್ತದೆ." },
+        { time: "00:00:00", label: "👼 Faith Building through Fasting and Prayer: level of faith determines the ability to overcome certain challenges. In the example of the disciples not being able to cast out a demon, Jesus mentioned that a higher level of faith was required. This higher level of faith can be attained through fasting and prayer, which are practices that help strengthen one's faith. Fasting and prayer create a deeper connection with God and are essential for building spiritual strength." },
+        { time: "00:15:00", label: "✨ The Power of God's Word in Transforming Lives:God's Word has a creative and transformative power. When we fill ourselves with God's Word, it leads to changes within us. Just as God's Word has the power to create and shape the world, it has the power to change our lives. By internalizing and speaking God's Word, we can bring about transformation not only within ourselves but also influence others in positive ways, changing their lives as well" },
+        { time: "00:30:00", label: "🌍covers various topics like spiritual warfare, the hierarchy of Satan's kingdom, the nature of demons and spirits, and their influence on the human world" },
+        { time: "00:46:00", label:"Corruption and sin: A warning about the corruption that happens when one turns away from God’s commandments. The heart becomes corrupt and leads to sin."},
+        { time: "01:03:00", label:"Spiritual cleansing: Emphasizing the need to cleanse the mind and heart from pollution. The analogy of water being cleaned and purified was used to illustrate how we need to stop spiritual pollution"},
+        { time: "01:03:00", label:"Holy Spirit: The Holy Spirit is described as the breath of God, and it is through God's Spirit that His word is created and revealed. This process is similar to how our own breath and words work in our speech."},
+        { time: "01:03:00", label:"The Role of the Holy Spirit in God's Word: The Holy Spirit brings God's word to life and makes it active. Without the movement of the Holy Spirit, God's word remains dry and inactive. When the Spirit moves and speaks through God's word, it becomes a tool for healing, blessing, and delivering people. The Spirit of God must be present for God's word to become effective and impactful in the lives of believers."},
+        { time: "01:03:00", label:"The Holy Spirit as the Power of God: The Holy Spirit is described as the power of God that enables God's plans and purposes to be fulfilled. Just as God the Father has a plan, and Jesus the Son executes it, the Holy Spirit empowers the plan by bringing it into action and giving it the strength needed to be completed."},
         
-        ]
+              ]
              },
       timestamps: {
         en:[
@@ -237,18 +244,18 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       date: "19-07-24",
       title: "The Nature of the Holy Spirit and God's Creation of Humanity",
       videoUrl: "https://www.youtube.com/embed/-ZSNDZjxuD4",
-      description: "Not updated",
+      description: "God's Love, Our Response: The Role of Jesus' Ascension and the Holy Spirit",
       desc1:"",
      
       desc2:"",
       desc3:"",
       desc4:"",
        descrip:{en:[
-        { time: "00:00:00", label: "God's Love as the Foundation: God is love, and He created humans in His image to share and spread that love." },
-        { time: "00:15:00", label: "Angels vs Humans: Angels don't have souls or emotions, unlike humans, who were made with the ability to love and feel, reflecting God's nature." },
-        { time: "00:30:00", label: "Purpose of Creation: God created humans not just for existence, but to experience and share His love, to worship and serve Him in return" },
-        { time: "00:46:00", label:"Jesus' Sacrifice and Resurrection: Jesus' death and resurrection were part of God's plan for redemption, showing His endless love and preparing the way for humanity's salvation."},
-        { time: "01:03:00", label:"Holy Spirit's Role: Jesus' departure allowed the Holy Spirit to come, guiding and empowering believers, emphasizing that His presence would now be limitless, accessible to all."},
+        { time: "00:00:00", label: "💖🙏God's Love as the Foundation: God is love, and He created humans in His image to share and spread that love." },
+        { time: "00:15:00", label: "👼✨ Angels vs. 🧑‍🤝‍🧑🌍 Humans: Angels don't have souls or emotions, unlike humans, who were made with the ability to love and feel, reflecting God's nature." },
+        { time: "00:30:00", label: "🌍 Purpose of Creation: God created humans not just for existence, but to experience and share His love, to worship and serve Him in return" },
+        { time: "00:46:00", label:"✝️🙏💔 Jesus' Sacrifice and Resurrection: Jesus' death and resurrection were part of God's plan for redemption, showing His endless love and preparing the way for humanity's salvation."},
+        { time: "01:03:00", label:"🙏 Holy Spirit's Role: Jesus' departure allowed the Holy Spirit to come, guiding and empowering believers, emphasizing that His presence would now be limitless, accessible to all."},
         
         
       ],
@@ -261,11 +268,11 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       
         ],
         kn:[
-          { time: "00:00:00", label: "ದೇವರ ಪ್ರೀತಿ ಮೂಲವಾಗಿದೆ: ದೇವರು ಪ್ರೀತಿಯಲ್ಲಿದ್ದಾರೆ, ಮತ್ತು ಆತನ ಸ್ವರೂಪದಲ್ಲಿ ಹೃದಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಮಾನವರನ್ನು ಸೃಷ್ಟಿಸಿದನು." },
-        { time: "00:15:00", label: "ಏಂಜೆಲ್ಸ್ ಹಾಗೂ ಮಾನವರು: ಏಂಜೆಲ್ಸ್ ಗಳು ಆತ್ಮ ಹಾಗೂ ಭಾವನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತಿಲ್ಲ, ಆದರೆ ಮಾನವರು ದೇವರ ಸ್ವರೂಪದಲ್ಲಿ ಪ್ರೀತಿ ಮತ್ತು ಭಾವನೆಗಳನ್ನು ಅನುಭವಿಸಲು ರಚನೆಗೊಂಡಿದ್ದಾರೆ." },
-        { time: "00:30:00", label: "ಸೃಷ್ಟಿಯ ಉದ್ದೇಶ: ದೇವರು ಮಾನವರನ್ನು ಕೇವಲ ಬದುಕಿಸಲು ಅಲ್ಲ, ತನ್ನ ಪ್ರೀತಿಯನ್ನು ಅನುಭವಿಸಿ ಹಂಚಿಕೊಳ್ಳಲು, ಆರಾಧನೆ ಮತ್ತು ಸೇವೆಗಾಗಿ ಸೃಷ್ಟಿಸಿದನು." },
-        { time: "00:46:00", label: "ಯೇಸು ಬಲಿದಾನ ಮತ್ತು ಪುನರುತ್ಥಾನ: ಯೇಸು ಕ್ರಿಸ್ತನ ಮರಣ ಮತ್ತು ಪುನರುತ್ಥಾನವು ದೇವರ ರಕ್ಷಣೆ ಯೋಜನೆಯ ಭಾಗವಾಗಿದ್ದು, ದೇವರ ಶಾಶ್ವತ ಪ್ರೀತಿಯನ್ನು ಹೊರಹಾಕುತ್ತದೆ." },
-        { time: "01:03:00", label: "ಪವಿತ್ರ ಆತ್ಮದ ಪಾತ್ರ: ಯೇಸು ಹೋದ ನಂತರ, ಪವಿತ್ರ ಆತ್ಮ ನಮ್ಮಲ್ಲಿರುತ್ತಾರೆ, ಅದು ಎಲ್ಲೆಡೆ ಉಲ್ಲಾಸವನ್ನು ಹಾಗೂ ಮಾರ್ಗದರ್ಶನವನ್ನು ನೀಡುತ್ತದೆ, ಅವನ ಪ್ರಸ್ತುತಿಯು ಅನಂತವಾಗುತ್ತದೆ." },
+          { time: "00:00:00", label: "💖🙏ದೇವರ ಪ್ರೀತಿ ಮೂಲವಾಗಿದೆ: ದೇವರು ಪ್ರೀತಿಯಲ್ಲಿದ್ದಾರೆ, ಮತ್ತು ಆತನ ಸ್ವರೂಪದಲ್ಲಿ ಹೃದಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಮಾನವರನ್ನು ಸೃಷ್ಟಿಸಿದನು." },
+        { time: "00:15:00", label: "👼✨ಏಂಜೆಲ್ಸ್ ಹಾಗೂ 🧑‍🤝‍🧑🌍 ಮಾನವರು: ಏಂಜೆಲ್ಸ್ ಗಳು ಆತ್ಮ ಹಾಗೂ ಭಾವನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತಿಲ್ಲ, ಆದರೆ ಮಾನವರು ದೇವರ ಸ್ವರೂಪದಲ್ಲಿ ಪ್ರೀತಿ ಮತ್ತು ಭಾವನೆಗಳನ್ನು ಅನುಭವಿಸಲು ರಚನೆಗೊಂಡಿದ್ದಾರೆ." },
+        { time: "00:30:00", label: "🌍 ಸೃಷ್ಟಿಯ ಉದ್ದೇಶ: ದೇವರು ಮಾನವರನ್ನು ಕೇವಲ ಬದುಕಿಸಲು ಅಲ್ಲ, ತನ್ನ ಪ್ರೀತಿಯನ್ನು ಅನುಭವಿಸಿ ಹಂಚಿಕೊಳ್ಳಲು, ಆರಾಧನೆ ಮತ್ತು ಸೇವೆಗಾಗಿ ಸೃಷ್ಟಿಸಿದನು." },
+        { time: "00:46:00", label: "✝️🙏💔 ಯೇಸು ಬಲಿದಾನ ಮತ್ತು ಪುನರುತ್ಥಾನ: ಯೇಸು ಕ್ರಿಸ್ತನ ಮರಣ ಮತ್ತು ಪುನರುತ್ಥಾನವು ದೇವರ ರಕ್ಷಣೆ ಯೋಜನೆಯ ಭಾಗವಾಗಿದ್ದು, ದೇವರ ಶಾಶ್ವತ ಪ್ರೀತಿಯನ್ನು ಹೊರಹಾಕುತ್ತದೆ." },
+        { time: "01:03:00", label: "🙏 ಪವಿತ್ರ ಆತ್ಮದ ಪಾತ್ರ: ಯೇಸು ಹೋದ ನಂತರ, ಪವಿತ್ರ ಆತ್ಮ ನಮ್ಮಲ್ಲಿರುತ್ತಾರೆ, ಅದು ಎಲ್ಲೆಡೆ ಉಲ್ಲಾಸವನ್ನು ಹಾಗೂ ಮಾರ್ಗದರ್ಶನವನ್ನು ನೀಡುತ್ತದೆ, ಅವನ ಪ್ರಸ್ತುತಿಯು ಅನಂತವಾಗುತ್ತದೆ." },
         
         ]
              },
@@ -274,24 +281,22 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
         { time: "00:57:20", label: "God's Plan of Redemption and Our Response to His Love Through Service" },
         { time: "01:07:55", label: "Jesus' Departure and the Promise of the Holy Spirit: Understanding the Need for His Ascension" },
         { time: "00:39:00", label: "Jesus' Ascension and the Promise of the Holy Spirit: Understanding the Need for His Ascension,The Greater Benefit" },
-        { time: "00:58:48", label:""},
-        { time: "01:29:20", label:""},
+        
         
         
       ],
         kk:[
           { time: "00:00:00", label: ""},
-        { time: "00:15:00", label: ""},
+         { time: "00:15:00", label: ""},
           { time: "00:30:00", label: "" },
           { time: "00:45:00", label: "" },
           { time: "01:03:00", label: "" }
         ],
         kn:[
-          { time: "00:00:00", label: "" },
-          { time: "00:15:00", label: "" },
-          { time: "00:39:00", label: "" },
-          { time: "00:58:00", label: "" },
-          { time: "01:29:30", label: "" }
+          { time: "00:57:20", label: "ದೇವರ ಪರಿಹಾರದ ಯೋಜನೆ ಮತ್ತು ಸೇವೆಯ ಮೂಲಕ ಅವನ ಪ್ರೀತಿಗೆ ನಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆ" },
+          { time: "01:07:00", label: "ಯೇಸು ಅವರ ಹೊರಹೊಮ್ಮುವಿಕೆ ಮತ್ತು ಪವಿತ್ರ ಆತ್ಮದ ಭರವಸೆ: ಅವನ ಏರಿಕೆಯ ಅವಶ್ಯಕತೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು" },
+          { time: "00:39:00", label: "ಯೇಸು ಅವರ ಏರಿಕೆ ಮತ್ತು ಪವಿತ್ರ ಆತ್ಮದ ಭರವಸೆ: ಅವನ ಏರಿಕೆಗೆ ಅವಶ್ಯಕತೆಯನ್ನು ಮತ್ತು ಅದರ ಹೆಚ್ಚಿದ ಲಾಭವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು" },
+          
         ],
     }}
   ];
@@ -316,7 +321,10 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 
   const handleTimestampClick = (study, time) => {
     const baseUrl = study.videoUrl.split("?")[0];
+    console.log(baseUrl);
     const updatedVideoUrl = `${baseUrl}?start=${convertToSeconds(time)}`;
+    console.log(time);
+    setClickedTime(time);
     setSelectedStudy({ ...study, videoUrl: updatedVideoUrl });
   };
 
@@ -326,11 +334,18 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   };
 
   return (
+
+    <div>
+      
+            {/* <!-- Meta Tags Generated via https://www.opengraph.xyz https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg-->*/}
+                 
+      
+ 
     <div className="dashboard">
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
         ☰
       </button>
-
+<br></br><br></br>
       <aside ref={sidebarRef} className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
         <h2>Bible LMS</h2>
         <input
@@ -358,7 +373,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       </aside>
 
       <main className="main-content">
-        <header className="header">Bible Learning Archive</header>
+        <header className="header">     Bible Learning Archive</header>
 
         {selectedStudy ? (
           <div>
@@ -429,23 +444,31 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
                   <ul>
                     {selectedStudy.scriptureReferences.map((ref, index) => (
                       <li key={index}>
-                        <button onClick={() => handleScriptureClick(ref.time)}>
-                          {ref.label}
+                        <button onClick={() => handleTimestampClick(selectedStudy,ref.time)}>
+                          {ref.label} {ref.time}
+                          
+                          {/* {clickedTime === ref.time && ` time:${ref.time}`}*/}
                         </button>
                       </li>
                     ))}
                   </ul>
                 </div>
               )}
+              <small><p className="no-selection"> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p></small>
+<a href="https://forms.gle/E8MdisaLqDEzdjgB8">
+      <button>Update Notes</button>
+</a>
               
-              
-            </div> <p> We acknowledge that some content may have inaccuracies. Help us improve by submitting your feedback or suggestions through our Google Form</p><br></br><small>Created by ETFGH Church members</small>
+            </div> 
+            .<br></br><small>Created by ETFGH Church members  </small>
           </div>
         ) : (
-          <p className="no-selection">Select a study from the list.</p>
+          <p className="no-selection"> Select a study from the list.<br></br> Bro Chethan</p>
+           
         )}
       </main>
     </div>
+  </div>
   );
 };
 
