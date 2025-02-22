@@ -347,7 +347,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           <meta property="og:type" content="website"/>
           <meta property="og:title" content="bible study"/>
           <meta property="og:description" content="hhhh"/>
-          <meta property="og:image" content="https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg"/>
+          <meta property="og:image" content="https://metatags.io/images/meta-tags.png"/>
           
         
           <meta name="twitter:card" content="summary_large_image"/>
