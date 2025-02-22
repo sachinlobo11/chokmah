@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import "./BibleLMS.css";
-
+import { Helmet } from 'react-helmet';
 const BibleLMS = () => {
   const [selectedStudy, setSelectedStudy] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -333,6 +333,19 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   };
 
   return (
+
+<Helmet>
+      {/* Open Graph Meta Tags for WhatsApp Preview */}
+      <meta property="og:title" content="Bible Study Notes" />
+      <meta property="og:description" content="ZZZZ" />
+      <meta property="og:image" content="https://img.youtube.com/vi/Tg4P1vfukKg/default.jpg" />
+      <meta property="og:url" content="https://chokmah.vercel.app" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://img.youtube.com/vi/Tg4P1vfukKg/default.jpg" />
+    </Helmet>
+
+
+    
     <div className="dashboard">
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
         ☰
