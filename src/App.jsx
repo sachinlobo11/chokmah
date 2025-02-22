@@ -336,7 +336,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   return (
 
 
-    <>
+    
       <Helmet>
         <meta property="og:title" content="Bible Study Notes" />
         <meta property="og:description" content="End Time FGHR Church" />
@@ -345,7 +345,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg" />
       </Helmet>
-    </>
+    
     <div className="dashboard">
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
         ☰
