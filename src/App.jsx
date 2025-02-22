@@ -340,7 +340,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
         
         
           <title>Bible tud Notes</title>
-          <link rel="shortcut icon" href="https://www.youversion.com/wp-content/themes/youversion/images/favicon.ico" type="image/x-icon">
+          <link rel="shortcut icon" href="https://www.youversion.com/wp-content/themes/youversion/images/favicon.ico" type="image/x-icon"/>
          
           <meta property="og:url" content="https://chokmah.vercel.app/"/>
           <meta property="og:type" content="website"/>
