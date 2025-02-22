@@ -336,7 +336,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
   return (
 
     <div>
-      <Helmet>
+      <head>
         
         
           
@@ -358,7 +358,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           
             {/* <!-- Meta Tags Generated via https://www.opengraph.xyz https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg-->*/}
                  
-      </Helmet>
+      </head>
  
     <div className="dashboard">
       <button className="toggle-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
