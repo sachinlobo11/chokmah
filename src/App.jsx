@@ -347,7 +347,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           <meta property="og:type" content="website"/>
           <meta property="og:title" content="bible study"/>
           <meta property="og:description" content="hhhh"/>
-          <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/59ee221e-4f89-4b80-bf9b-f6ad754abf46.jpg?token=pTuwF0EkrjmyA_0hoAbtajt2x9_Ag5yNx_x62fv6AN4&height=1800&width=1200&expires=33276213281"/>
+          <meta property="og:image" content="https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg"/>
           
         
           <meta name="twitter:card" content="summary_large_image"/>
@@ -355,7 +355,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           <meta property="twitter:url" content="https://chokmah.vercel.app/"/>
           <meta name="twitter:title" content="bible study"/>
           <meta name="twitter:description" content="hhhh"/>
-          <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/59ee221e-4f89-4b80-bf9b-f6ad754abf46.jpg?token=pTuwF0EkrjmyA_0hoAbtajt2x9_Ag5yNx_x62fv6AN4&height=1800&width=1200&expires=33276213281"/>
+          <meta name="twitter:image" content="https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg"/>
           
             {/* <!-- Meta Tags Generated via https://www.opengraph.xyz https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg-->*/}
                  
