@@ -338,12 +338,12 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 
     <>
       <Helmet>
-        <meta property="og:title" content="Your Page Title" />
-        <meta property="og:description" content="Description of your page content" />
-        <meta property="og:image" content="https://yourwebsite.com/path/to/image.jpg" />
-        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta property="og:title" content="Bible Study Notes" />
+        <meta property="og:description" content="End Time FGHR Church" />
+        <meta property="og:image" content="https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg" />
+        <meta property="og:url" content="https://chokmah.vercel.app" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://yourwebsite.com/path/to/image.jpg" />
+        <meta name="twitter:image" content="https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg" />
       </Helmet>
     </>
     <div className="dashboard">
