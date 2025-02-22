@@ -337,6 +337,8 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 
     <div>
       <Helmet>
+        <title>bible study</title>
+        <meta name="description" content="End Time FGHR Church">
         <meta property="og:title" content="Bible Study Notes" />
         <meta property="og:description" content="End Time FGHR Church" />
         <meta property="og:image" content="https://img.youtube.com/vi/4Q2JicFD5GM/default.jpg" />
