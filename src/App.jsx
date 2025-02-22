@@ -341,7 +341,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
         
           <title>bible study</title>
           <meta name="description" content="hhhh"/>
-          
+          <meta name="title" content="hhhh"/>
          
           <meta property="og:url" content="https://chokmah.vercel.app/"/>
           <meta property="og:type" content="website"/>
