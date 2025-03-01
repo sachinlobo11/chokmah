@@ -313,9 +313,9 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
       desc3:"",
       desc4:"",
        descrip:{en:[
-        { time: "00:00:00", label: "💖🙏God's Love as the Foundation: God is love, and He created humans in His image to share and spread that love." },
-        { time: "00:15:00", label: "👼✨ Angels vs. 🧑‍🤝‍🧑🌍 Humans: Angels don't have souls or emotions, unlike humans, who were made with the ability to love and feel, reflecting God's nature." },
-        { time: "00:30:00", label: "🌍 Purpose of Creation: God created humans not just for existence, but to experience and share His love, to worship and serve Him in return" },
+        { time: "00:00:00", label: "💖🙏From Glory to Glory → God has called us to a greater level than before" },
+        { time: "00:15:00", label: "👼✨ From Blessing to Blessing → God continues to increase His blessings" },
+        { time: "00:30:00", label: "🌍 From Miracle to Miracle → A small prayer can bring great works" },
         { time: "00:46:00", label:"✝️🙏💔 Jesus' Sacrifice and Resurrection: Jesus' death and resurrection were part of God's plan for redemption, showing His endless love and preparing the way for humanity's salvation."},
         { time: "01:03:00", label:"🙏 Holy Spirit's Role: Jesus' departure allowed the Holy Spirit to come, guiding and empowering believers, emphasizing that His presence would now be limitless, accessible to all."},
         
@@ -343,8 +343,8 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
         { time: "01:11:20", label: "Gods Plan and Calling:God has calld us to a greater glory than before. Insted of dwelling on the past, we must look forward with expectation to the mighty works that God is going to do." },
         { time: "01:14:55", label: "Solomon’s Temple vs. The Second Temple: Thfirst temple was magnifcent, but God made the second temple even more glorious." },
         { time: "01:17:00", label: "God’s Promise to Abraham and Sarah: Sarah giving birth to a son (Isaac) a the age of 90 was a divne miracle." },
-         { time: "01:21:16", label: "Joseph's Interpretation of Dreams:  Joseph saw his future through his dreams." }
-        { time: "01:26:00", label: " King Nebuchadnezzar’s Dream and Daniel: Daniel was a man of divine wisdom—God directly revealed the dream and its meaning to him." }
+         { time: "01:21:16", label: "Joseph's Interpretation of Dreams:  Joseph saw his future through his dreams." },
+        { time: "01:26:00", label: " King Nebuchadnezzar’s Dream and Daniel: Daniel was a man of divine wisdom—God directly revealed the dream and its meaning to him." },
            { time: "01:34:00", label: "The Miraculous Works of Elijah and Elisha:Elijah: When there was no rain, he prayed → God brought a great rain from a small cloud." }
        
 
