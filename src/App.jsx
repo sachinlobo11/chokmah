@@ -339,10 +339,10 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
              },
       timestamps: {
         en:[
-        { time: "01:11:20", label: "Gods Plan and Calling:God has calld us to a greater glory than before. Insted of dwelling on the past, we must look forward with expectation to the mighty works that God is going to do." },
-        { time: "01:14:55", label: "Solomon’s Temple vs. The Second Temple: Thfirst temple was magnifcent, but God made the second temple even more glorious." },
-        { time: "01:17:00", label: "God’s Promise to Abraham and Sarah: Sarah giving birth to a son (Isaac) a the age of 90 was a divne miracle." },
-         { time: "01:21:16", label: "Joseph's Interpretation of Dreams:  Joseph saw his future through his dreams." },
+        { time: "01:11:20", label: "Gods Plan and Calling:God has called us to a greater glory than before. Instead of dwelling on the past, we must look forward with expectation to the mighty works that God is going to do." },
+        { time: "01:14:55", label: "Solomon’s Temple vs. The Second Temple: The first temple was beautiful, but God made the second temple even more glorious." },
+        { time: "01:17:00", label: "God’s Promise to Abraham and Sarah: Sarah giving birth to a son (Isaac) at the age of 90 was a divne miracle." },
+         { time: "01:21:16", label: "Joseph's Interpretation of Dreams:  Joseph saw his future through his(pharoah) dreams." },
         { time: "01:26:00", label: " King Nebuchadnezzar’s Dream and Daniel: Daniel was a man of divine wisdom—God directly revealed the dream and its meaning to him." },
            { time: "01:34:00", label: "The Miraculous Works of Elijah and Elisha:Elijah: When there was no rain, he prayed → God brought a great rain from a small cloud." }
        
@@ -363,7 +363,7 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
           { time: "01:17:00", label: "ಆಬ್ರಹಾಮ ಮತ್ತು ಸಾರಳಿಗೆ ದೇವರ ವಾಗ್ದಾನ:ಸಾರಳಿಗೆ 90ನೇ ವಯಸ್ಸಿನಲ್ಲಿ ಮಗುವಾದುದು (ಇಸಾಕ್) – ಇದು ಒಂದು ದೇವದತ್ತ ಅದ್ಭುತ." },
           { time: "01:21:16", label: "ಯೋಸೇಫನ ಕನಸುಗಳರ್ಥ:ಯೋಸೇಫ್ ತನ್ನ ಕನಸುಗಳ ಮೂಲಕ ತನ್ನ ಭವಿಷ್ಯವನ್ನು ನೋಡಿದನು.ಐಗುಪ್ತ ದೇಶದ ಪಡುವಣದ ಸನ್ನಿವೇಶದಲ್ಲಿ ಅವನು ರಾಜನೊಂದಿಗೆ ಎದ್ದು ಬಂದನು." },
          { time: "01:26:15", label: "ನೆಬೂಕದ್ನೇಸರ್ ರಾಜನ ಕನಸು ಮತ್ತು ದಾನಿಯೇಲನು:ದಾನಿಯೇಲನು ಒಬ್ಬ ದೈವಜ್ಞಾನಿ – ದೇವರು ದಾನಿಯೇಲನಿಗೆ ಕಂಡ ಕನಸು ಮತ್ತು ಅದರ ಅರ್ಥವನ್ನು ಪ್ರತ್ಯಕ್ಷವಾಗಿ ತಿಳಿಸಿದರು." },
-  { time: "01:34:00", label: "ಎಲಿಯ ಮತ್ತು ಎಲೀಷನ ಅದ್ಭುತ ಕಾರ್ಯಗಳು ಎಲಿಯನು: ಮಳೆ ಬರದೆ ಇದ್ದಾಗ ಪ್ರಾರ್ಥನೆ ಮಾಡಿದರು → ದೇವರು ಚಿಕ್ಕ ಮೋಡದಿಂದ ಭಾರಿ ಮಳೆ ತರಿಸಿದರು. " }     ,
+  { time: "01:34:00", label: "ಎಲಿಯ ಮತ್ತು ಎಲೀಷನ ಅದ್ಭುತ ಕಾರ್ಯಗಳು ಎಲಿಯನು: ಮಳೆ ಬರದೆ ಇದ್ದಾಗ ಪ್ರಾರ್ಥನೆ ಮಾಡಿದರು → ದೇವರು ಚಿಕ್ಕ ಮೋಡದಿಂದ ಭಾರಿ ಮಳೆ ತರಿಸಿದರು. " }    ,
        { time: "01:37:00", label: "ಮರಣದಿಂದ ಜೀವಕ್ಕೆ: ಎಲಿಯ, ಎಲೀಷ ಮತ್ತು ಎಜ್ಕೆಲ್" } ,
 { time: "01:42:00", label: "ನೋಹ ಮತ್ತು ಪೇತ್ರನು:ನೋಹನ ಹಡಗು: 8 ಜನರು ಪೇತ್ರನು ಒಂದು ಪ್ರಸಂಗದಿಂದ 3000 ಜನರ ರಕ್ಷಣೆ." }
           
