@@ -316,9 +316,8 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
         { time: "00:00:00", label: "💖🙏From Glory to Glory → God has called us to a greater level than before" },
         { time: "00:15:00", label: "👼✨ From Blessing to Blessing → God continues to increase His blessings" },
         { time: "00:30:00", label: "🌍 From Miracle to Miracle → A small prayer can bring great works" },
-        { time: "00:46:00", label:"✝️🙏💔 Jesus' Sacrifice and Resurrection: Jesus' death and resurrection were part of God's plan for redemption, showing His endless love and preparing the way for humanity's salvation."},
-        { time: "01:03:00", label:"🙏 Holy Spirit's Role: Jesus' departure allowed the Holy Spirit to come, guiding and empowering believers, emphasizing that His presence would now be limitless, accessible to all."},
-        
+        { time: "00:46:00", label:"✝️🙏 Faith is Important → Miracles happen through the belief that I trust in God's Word"},
+        { time: "01:03:00", label:"🙏 The glory of this present house shall be greater than the glory of the former house"}
         
       ],
         kk:[
