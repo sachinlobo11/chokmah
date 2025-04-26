@@ -374,9 +374,9 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
     {
       id: 6,
       date: "25-04-25",
-      title: "From Glory to Glory, From Blessing to Blessing",
+      title: "Let us abide in God's meditation and be fruitful",
       videoUrl: "https://www.youtube.com/embed/NtH_5SLW7ss",
-      description: "Anniversary special Haggai 2:9 – The glory of this present house will be greater than the glory of the former house",
+      description: "",
       desc1:"",
      
       desc2:"",
