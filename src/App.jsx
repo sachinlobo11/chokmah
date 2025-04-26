@@ -368,6 +368,76 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
 { time: "01:42:00", label: "ನೋಹ ಮತ್ತು ಪೇತ್ರನು:ನೋಹನ ಹಡಗು: 8 ಜನರು ಪೇತ್ರನು ಒಂದು ಪ್ರಸಂಗದಿಂದ 3000 ಜನರ ರಕ್ಷಣೆ." }
           
         ],
+    }},
+
+
+    {
+      id: 6,
+      date: "25-04-25",
+      title: "From Glory to Glory, From Blessing to Blessing",
+      videoUrl: "https://www.youtube.com/embed/NtH_5SLW7ss",
+      description: "Anniversary special Haggai 2:9 – The glory of this present house will be greater than the glory of the former house",
+      desc1:"",
+     
+      desc2:"",
+      desc3:"",
+      desc4:"",
+       descrip:{en:[
+        { time: "00:00:00", label: "💖🙏To Bear Fruit, We Must Abide in Jesus (John 15:5-7)" },
+        { time: "00:15:00", label: "👼✨ Prayer is not just about presenting a list of requests, but about building a true, intimate relationship with God." },
+        { time: "00:30:00", label: "🌍 We should dedicate at least one hour daily for prayer" },
+        { time: "00:46:00", label:"✝️🙏 We must listen to God's voice by meditating on His Word."},
+        { time: "01:03:00", label:"🙏 We should choose the right time and place to maintain the presence of God.Sacrifice and devotion are essential for a truly strong and powerful life"}
+        
+      ],
+        kk:[
+          { time: "00:00:00", label: "" },
+        { time: "00:15:00", label: "" },
+        { time: "00:30:00", label: "" },
+        { time: "00:46:00", label:""},
+        { time: "01:03:00", label:""},
+      
+        ],
+        kn:[
+          { time: "00:00:00", label: "💖🙏ಫಲಕೊಡಲು ಯೇಸುವಿನಲ್ಲಿ ನೆಲೆಗೊಳ್ಳಬೇಕು (ಯೋಹಾನ 15:5-7)" },
+        { time: "00:15:00", label: "👼✨ಪ್ರಾರ್ಥನೆ ಮಾತ್ರ ಬೇಡಿಕೆ ಪಟ್ಟಿಯನ್ನು ಅರ್ಪಿಸುವುದು ಅಲ್ಲ, ದೇವರೊಂದಿಗೆ ನಿಜವಾದ ಸಂಗಾತಿಯ ಸಂಬಂಧ ಕಟ್ಟಿಕೊಳ್ಳುವುದು." },
+        { time: "00:30:00", label: "🌍 ದಿನವೂ ಕನಿಷ್ಠ ಒಂದು ಗಂಟೆ ಪ್ರಾರ್ಥನೆಗೆ ಸಮರ್ಪಿಸಬೇಕು" },
+        { time: "00:46:00", label: "✝️🙏💔 ದೇವರ ವಾಕ್ಯದಲ್ಲಿ ಧ್ಯಾನ ಮಾಡುವ ಮೂಲಕ ದೇವರ ಸ್ವರವನ್ನು ಕೇಳಬೇಕು" },
+        { time: "01:03:00", label: "🙏 ದೇವರ ಸಾನ್ನಿಧ್ಯವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಲು ಸರಿಯಾದ ಸಮಯ ಮತ್ತು ಸ್ಥಳವನ್ನು ಆರಿಸಬೇಕು.ಸತ್ಯವಾಗಿ ಬಲಶಾಲಿ ಜೀವಿತಕ್ಕಾಗಿ ತ್ಯಾಗ ಮತ್ತು ಶ್ರದ್ಧೆ ಮುಖ್ಯ" },
+        
+        ]
+             },
+      timestamps: {
+        en:[
+        { time: "01:11:20", label: "Gods Plan and Calling:God has called us to a greater glory than before. Instead of dwelling on the past, we must look forward with expectation to the mighty works that God is going to do." },
+        { time: "01:14:55", label: "Solomon’s Temple vs. The Second Temple: The first temple was beautiful, but God made the second temple even more glorious." },
+        { time: "01:17:00", label: "God’s Promise to Abraham and Sarah: Sarah giving birth to a son (Isaac) at the age of 90 was a divne miracle." },
+         { time: "01:21:16", label: "Joseph's Interpretation of Dreams:  Joseph saw his future through his(pharoah) dreams." },
+        { time: "01:26:00", label: " King Nebuchadnezzar’s Dream and Daniel: Daniel was a man of divine wisdom—God directly revealed the dream and its meaning to him." },
+           { time: "01:34:00", label: "The Miraculous Works of Elijah and Elisha:Elijah: When there was no rain, he prayed → God brought a great rain from a small cloud." }
+       
+
+
+
+      ],
+        kk:[
+          { time: "00:00:00", label: ""},
+         { time: "00:15:00", label: ""},
+          { time: "00:30:00", label: "" },
+          { time: "00:45:00", label: "" },
+          { time: "01:03:00", label: "" }
+        ],
+        kn:[
+          { time: "00:03:13", label: "ಯೇಸುವಿನಲ್ಲಿ ನೆಲೆಗೊಳ್ಳುವುದು:ಫಲ ಕೊಡುವುದು ದೇವರಿಗೆ ಮಹಿಮೆ ತರಿಸಲು" },
+          { time: "00:14:38", label: "ಪ್ರಾರ್ಥನೆ ಮತ್ತು ಧ್ಯಾನದ ಮಹತ್ವ:ಕನಿಷ್ಠ ಒಂದು ಗಂಟೆ ಪ್ರಾರ್ಥನೆ ಕಡ್ಡಾಯ,ಧೈರ್ಯ ಮತ್ತು ಕಾಯುವಿಕೆ ಅಗತ್ಯ" },
+          { time: "00:17:00", label: "ವರಗಳು vs ಫಲಗಳು ವ್ಯತ್ಯಾಸ:ವರಗಳು ತಕ್ಷಣ ದೊರೆಯುತ್ತವೆ,ಫಲಗಳಿಗೆ ಸಮಯ, ಪರಿಶ್ರಮ ಅಗತ್ಯ (mango tree ಉದಾಹರಣೆ)" },
+          { time: "00:21:16", label: " ನಿಜವಾದ ಪ್ರಾರ್ಥನೆಯ ಅರ್ಥ:ದೇವರೊಂದಿಗೆ ದ್ವಿಮುಖ ಸಂಭಾಷಣೆ ಅಗತ್ಯ" },
+         { time: "00:26:15", label: "ಪ್ರಾರ್ಥನೆಯಲ್ಲಿ ಹೇಗೆ ಬೆಳೆದುಕೊಳ್ಳಬೇಕು?.ವಿಧವೆಯ ಎಣ್ಣೆ ಉದಾಹರಣೆ." },
+  { time: "00:34:00", label: "ಸರಳ ಟಿಪ್ಸ್ ಪ್ರಾರ್ಥನೆಗೆ:ಹೆಚ್ಚು ವ್ಯತ್ಯಯವಾಗದ ಸಮಯವನ್ನು ಆರಿಸಿ (ಬೆಳಿಗ್ಗೆ ಅಥವಾ ರಾತ್ರಿ)" }    ,
+       { time: "00:37:00", label: "ಪ್ರಾರ್ಥನೆ ಮಾಡುವ ವಿಧಾನ" } ,
+{ time: "00:42:00", label: "ಬೈಬಲ್ ಓದುವ ಮಹತ್ವ:ಮೊದಲಿಗೆ ಬೈಬಲ್ ಓದಿ, ನಂತರ ಪ್ರಾರ್ಥನೆ ಮಾಡಿ" }
+          
+        ],
     }}
   ];
 
