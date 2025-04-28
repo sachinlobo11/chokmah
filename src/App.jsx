@@ -409,12 +409,23 @@ desc12:"🙌 ದೇವರ ಶಕ್ತಿಯ ಅನುಭವ: ನಂಬಿಕೆ
              },
       timestamps: {
         en:[
-        { time: "01:11:20", label: "Gods Plan and Calling:God has called us to a greater glory than before. Instead of dwelling on the past, we must look forward with expectation to the mighty works that God is going to do." },
-        { time: "01:14:55", label: "Solomon’s Temple vs. The Second Temple: The first temple was beautiful, but God made the second temple even more glorious." },
-        { time: "01:17:00", label: "God’s Promise to Abraham and Sarah: Sarah giving birth to a son (Isaac) at the age of 90 was a divne miracle." },
-         { time: "01:21:16", label: "Joseph's Interpretation of Dreams:  Joseph saw his future through his(pharoah) dreams." },
-        { time: "01:26:00", label: " King Nebuchadnezzar’s Dream and Daniel: Daniel was a man of divine wisdom—God directly revealed the dream and its meaning to him." },
-           { time: "01:34:00", label: "The Miraculous Works of Elijah and Elisha:Elijah: When there was no rain, he prayed → God brought a great rain from a small cloud." }
+        { time: "01:11:20", label: "Abiding in Jesus: Bearing fruit to bring glory to God" },
+        { time: "01:14:55", label: "The Importance of Prayer and Meditation: At least one hour of prayer is mandatory; courage and perseverance are essential." },
+        { time: "01:17:00", label: "Difference between Gifts and Fruits: Gifts are received instantly, but fruits require time and effort (example of a mango tree)." },
+         { time: "01:21:16", label: "True Meaning of Prayer: A two-way conversation with God is essential." },
+        { time: "01:26:00", label: " How to Grow in Prayer: Example of the widow’s oil." },
+           { time: "01:34:00", label: "Simple Tips for Prayer: Choose a time with fewer distractions (morning or night)." },
+          { time: "01:34:00", label: "Method of Praying" },{ time: "01:34:00", label: "Importance of Reading the Bible: First read the Bible, then pray." },
+          { time: "01:34:00", label: "God pours out fire upon sacrifice." },
+          { time: "01:34:00", label: "Sacrificing sleep and food is precious in God's sight." },
+          { time: "01:34:00", label: "Fix a proper time for prayer." },
+          { time: "01:34:00", label: "Small things make a big difference" },
+          { time: "01:34:00", label: "Need for continuous meditation throughout the day." },
+          { time: "01:34:00", label: "How holy the mind must be." },
+          { time: "01:34:00", label: "Separating from the wicked (Psalm 1:1–3)." },
+          { time: "01:34:00", label: "Need for continuous meditation throughout the day." },
+          { time: "01:34:00", label: "Example of fruitful sowing (Matthew 13)" }
+          
        
 
 
